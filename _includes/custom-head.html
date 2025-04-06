@@ -1,17 +1,44 @@
 <style>
-  /* Background color sitewide */
-  body {
-    background-color: #F3F8FC; /* soft powder blue */
-    font-size: 15px;
+  /* 🌤 Site-wide background */
+  body,
+  .page,
+  .site,
+  .wrapper {
+    background-color: #F3F8FC !important; /* powder blue */
   }
-  
-  /* Justify all paragraph text */
+
+  /* 📖 Justify text */
   .page__content p {
     text-align: justify;
   }
 
-  /* Reduce overall font size */
+  /* 🔠 Font styling */
   body {
     font-size: 15px;
+    color: #222;
+  }
+
+  /* 🎨 Navbar + link colors */
+  a,
+  .masthead a,
+  .greedy-nav a,
+  .site-title,
+  .page__footer a {
+    color: #2A3B62; /* muted navy for contrast */
+  }
+
+  a:hover {
+    color: #1D2A50; /* darker on hover */
+  }
+
+  /* 🌟 Optional: Change button color */
+  .btn,
+  .btn--primary {
+    background-color: #2A3B62;
+    color: white;
+  }
+
+  .btn:hover {
+    background-color: #1D2A50;
   }
 </style>
