@@ -8,4 +8,3 @@ header:
   
 excerpt: "Data & Analytics Consultant | Insight, Strategy, Results."
 ---
-0
