@@ -5,16 +5,16 @@ layout: collection
 entries_layout: grid
 classes: wide
 ---
+Explore some of my work.
 
-# My Data Science Projects
-
-Here are some projects I've worked on that showcase my skills in data science.
-
-## Project 1: [Project Name]
+<-- ## Project 1: [Solving Africa’s Housing Crisis with AI.]
 
 ![Project Image](/assets/images/project1.jpg)
-
-Brief description of your project, what you did, and what technologies you used.
+An AI-powered housing platform built to solve urban housing issues for rural migrants in Africa. Features include:
+- A USSD-based tool for affordable housing search
+- An integrated landlord-tenant match system
+- Automated rental agreements with ID verification.
+  Tools: Trello, Figma, Google Workspace, Canva.
 
 [View Project](#) | [GitHub Repository](#)
 
@@ -24,4 +24,4 @@ Brief description of your project, what you did, and what technologies you used.
 
 Brief description of your project, what you did, and what technologies you used.
 
-[View Project](#) | [GitHub Repository](#)
+[View Project](#) | [GitHub Repository](#) -->
