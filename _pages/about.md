@@ -1,4 +1,3 @@
-#Folder Structure
 ---
 title: "About Me"
 permalink: /about/
