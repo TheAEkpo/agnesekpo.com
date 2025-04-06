@@ -8,13 +8,14 @@ tags:
   - learning
 ---
 
-This is my first blog post about my data science journey!
 
-I'm currently learning about [something you're learning] and finding it really interesting because [your thoughts].
+
+ <-- This is my first blog post about my data science journey!
+ I'm currently learning about [something you're learning] and finding it really interesting because [your thoughts].
 
 Some things I've learned recently:
 - Point 1
 - Point 2
-- Point 3
+- Point 3 -->
 
 I'm looking forward to sharing more of my learning journey here!
