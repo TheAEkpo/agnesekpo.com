@@ -16,12 +16,12 @@ An AI-powered housing platform built to solve urban housing issues for rural mig
 - Automated rental agreements with ID verification.
   Tools: Trello, Figma, Google Workspace, Canva.
 
-<-- [View Project](#) | [GitHub Repository](#)
+[View Project](#) | [GitHub Repository](#)
 
-## Project 2: [Project Name]
+!## Project 2: [Project Name]
 
 ![Project Image](/assets/images/project2.jpg)
 
 Brief description of your project, what you did, and what technologies you used.
 
-[View Project](#) | [GitHub Repository](#) -->
+[View Project](#) | [GitHub Repository](#)!
