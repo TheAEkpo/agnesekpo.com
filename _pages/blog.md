@@ -1,6 +1,6 @@
 ---
 title: "Musings"
 permalink: /blog/
-layout: posts
+layout: splash
 author_profile: false
 ---
