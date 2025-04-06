@@ -12,7 +12,7 @@ repository: "TheAEkpo/agnesekpo.com"
 # Site Author
 author:
   name: "Agnes Ekpo"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "/assets/images/profile-photo.jpg"
   bio: "Data Scientist passionate about solving problems with data"
   location: "Toronto, Canada"
   email: "a.ekpo@outlook.com"
