@@ -1,14 +1,17 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+title: "Agnes Ekpo"
+permalink: /
 header:
   overlay_image: /assets/images/header-image.jpg
-  overlay_filter: 0.5
-excerpt: "Data Scientist transforming information into insights"
+  overlay_filter: 0.3
+  overlay_color: "#000"
+  actions:
+    - label: "About Me"
+      url: "/about/"
+    - label: "Portfolio"
+      url: "/projects/"
+    - label: "Musings"
+      url: "/blog/"
+excerpt: "Data & Analytics Consultant | Insight, Strategy, Results."
 ---
-
-# Welcome to My Portfolio
-
-I'm a data science professional. I love working with data to solve real-world problems and create meaningful insights.
-
-## [Portfolio](/projects/) | [Musings](/blog/) | [About Me](/about/)
