@@ -15,4 +15,4 @@ I’ve delivered projects across healthcare, finance, tech, and the social secto
 If you’re thinking about your next data project and want someone who understands both the numbers and the context, I’d love to hear from you.
 
 ## Hello...
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ooig2kBBkX8"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ooig2kBBkX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
