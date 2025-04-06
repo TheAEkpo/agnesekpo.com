@@ -1,9 +1,8 @@
-!!!Homepage
 ---
 layout: home
 author_profile: true
 header:
-  overlay_image: /assets/images/banner.jpg
+  overlay_image: /assets/images/header-image.jpg
   overlay_filter: 0.5
 excerpt: "Data Scientist transforming information into insights"
 ---
