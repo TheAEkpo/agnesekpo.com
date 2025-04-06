@@ -6,7 +6,7 @@ entries_layout: grid
 classes: wide
 ---
 
-## Solving Africa’s Housing Crisis with AI.
+## [Solving Africa’s Housing Crisis with AI.]
 
 ![Project Image](/assets/images/urbanx.jpg)
 An AI-powered housing platform built to solve urban housing issues for rural migrants in Africa. Features include:
@@ -17,10 +17,10 @@ An AI-powered housing platform built to solve urban housing issues for rural mig
 
 [View Project](#) | [GitHub Repository](#)
 
-!## Project 2: [Project Name]
+/* !## Project 2: [Project Name]
 
 ![Project Image](/assets/images/project2.jpg)
 
 Brief description of your project, what you did, and what technologies you used.
 
-[View Project](#) | [GitHub Repository](#)!
+[View Project](#) | [GitHub Repository](#)! */
