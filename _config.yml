@@ -35,8 +35,8 @@ footer:
       url: "https://www.linkedin.com/in/agnesekpo"
     - label: "Contact"
       icon: "fab fa-fw fa-email"
-      email: "a.ekpo@outlook.com"
-      location: "Toronto, Canada"
+      url: "mailto:a.ekpo@outlook.com"
+      title: "Toronto, Canada"
  
 
 # Defaults
