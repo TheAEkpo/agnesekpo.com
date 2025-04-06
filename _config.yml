@@ -10,7 +10,6 @@ repository: "TheAEkpo/agnesekpo.com"
 
 # Site Author
 author:
-  name: "Agnes Ekpo"
   avatar: "/assets/images/profile-photo.jpg"
   bio: "Data Scientist passionate about solving problems with data"
   location: "Toronto, Canada"
@@ -34,7 +33,7 @@ footer:
       url: "https://github.com/TheAEkpo"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/agnesekpo"
+      url: "https://www.linkedin.com/in/agnesekpo"
 
 # Defaults
 defaults:
@@ -43,7 +42,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: true
       read_time: true
       comments: false
@@ -54,7 +53,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: false
 
 # Include pages
