@@ -23,7 +23,7 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/agnesekpo"
-     - label: "Portfolio"
+    - label: "Portfolio"
       icon: "fab fa-fw fa-briefcase"
       url: "https://www.datascienceportfol.io/aekpo"
 
