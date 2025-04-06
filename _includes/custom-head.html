@@ -1,10 +1,13 @@
 <style>
-  /* 🌤 Site-wide background */
+  /* 💙 Full site background fix for deeply nested theme containers */
+  html,
   body,
-  .page,
   .site,
-  .wrapper {
-    background-color: #F3F8FC !important; /* powder blue */
+  .page,
+  .wrapper,
+  .page__inner-wrap,
+  .initial-content {
+    background-color: #F3F8FC !important;
   }
 
   /* 📖 Justify text */
@@ -18,27 +21,27 @@
     color: #222;
   }
 
-  /* 🎨 Navbar + link colors */
+  /* 🎨 Navbar and link color */
   a,
   .masthead a,
   .greedy-nav a,
   .site-title,
   .page__footer a {
-    color: #2A3B62; /* muted navy for contrast */
+    color: #2A3B62 !important; /* muted navy */
   }
 
   a:hover {
-    color: #1D2A50; /* darker on hover */
+    color: #1D2A50 !important;
   }
 
-  /* 🌟 Optional: Change button color */
+  /* 🌟 Button color */
   .btn,
   .btn--primary {
-    background-color: #2A3B62;
-    color: white;
+    background-color: #2A3B62 !important;
+    color: white !important;
   }
 
   .btn:hover {
-    background-color: #1D2A50;
+    background-color: #1D2A50 !important;
   }
 </style>
