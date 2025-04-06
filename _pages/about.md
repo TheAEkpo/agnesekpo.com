@@ -5,7 +5,7 @@ layout: splash
 author_profile: false
 toc: false
 ---
-<img src="/assets/images/profile-photo.jpg" alt="Agnes Ekpo" width="250" align="right" style="margin-left: 20px; border-radius: 12px;">
+<img src="/assets/images/profile.jpg" alt="Agnes Ekpo" width="250" align="right" style="margin-left: 20px; border-radius: 12px;">
 
 Hi, I’m Agnes, a data and analytics consultant with a background in pharmacy and a passion for making insight-driven decisions possible. I work with businesses, nonprofits, and health organizations to help them translate their data into meaningful action. Whether it’s improving operational efficiency, optimizing reporting workflows, or uncovering key performance trends, I bring structure and clarity to complex data challenges.
 
