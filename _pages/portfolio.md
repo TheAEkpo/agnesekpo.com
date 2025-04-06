@@ -7,7 +7,7 @@ classes: wide
 ---
 Explore some of my work.
 
-<-- ## [Solving Africa’s Housing Crisis with AI.]
+ ## Solving Africa’s Housing Crisis with AI.
 
 ![Project Image](/assets/images/project1.jpg)
 An AI-powered housing platform built to solve urban housing issues for rural migrants in Africa. Features include:
@@ -16,7 +16,7 @@ An AI-powered housing platform built to solve urban housing issues for rural mig
 - Automated rental agreements with ID verification.
   Tools: Trello, Figma, Google Workspace, Canva.
 
-[View Project](#) | [GitHub Repository](#)
+<-- [View Project](#) | [GitHub Repository](#)
 
 ## Project 2: [Project Name]
 
