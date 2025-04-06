@@ -11,4 +11,4 @@ excerpt: "Data Scientist transforming information into insights"
 
 I'm a data science professional. I love working with data to solve real-world problems and create meaningful insights.
 
-## [View My Projects](/projects/) | [Read My Blog](/blog/) | [About Me](/about/)
+## [Portfolio](/projects/) | [Blog](/blog/) | [About Me](/about/)
