@@ -7,7 +7,7 @@ classes: wide
 ---
 Explore some of my work.
 
-<-- ## Project 1: [Solving Africa’s Housing Crisis with AI.]
+<-- ## [Solving Africa’s Housing Crisis with AI.]
 
 ![Project Image](/assets/images/project1.jpg)
 An AI-powered housing platform built to solve urban housing issues for rural migrants in Africa. Features include:
