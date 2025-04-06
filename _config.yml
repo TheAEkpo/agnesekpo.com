@@ -1,0 +1,71 @@
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Site Settings
+title: "Agnes Ekpo"
+subtitle: "Data Scientist"
+name: "Agnes Ekpo"
+description: "Personal website showcasing my data science projects and skills"
+url: "https://agnesekpo.com"
+repository: "TheAEkpo/agnesekpo.com"
+
+# Site Author
+author:
+  name: "Agnes Ekpo"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Data Scientist passionate about solving problems with data"
+  location: "Toronto, Canada"
+  email: "a.ekpo@outlook.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/TheAEkpo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/agnesekpo"
+     - label: "Portfolio"
+      icon: "fab fa-fw fa-briefcase"
+      url: "https://www.datascienceportfol.io/aekpo"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/TheAEkpo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/agnesekpo"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Include pages
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
