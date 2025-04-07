@@ -1,6 +1,7 @@
 ---
 title: "Restarting, Relearning, Rebuilding"
 date: 2025-04-05
+comments: true
 layout: splash
 read_time: true
 author_profile: false
@@ -44,6 +45,20 @@ If you're reading this, thank you for being here. If you're also restarting, kno
 One skill, one line of code, one brave move at a time. 
 'XO
 
-{% if page.comments != false %}
-  {% include comments.html %}
+{% if site.comments.provider == "giscus" %}
+  <script src="https://giscus.app/client.js"
+          data-repo="{{ site.comments.giscus.repo }}"
+          data-repo-id="{{ site.comments.giscus.repo_id }}"
+          data-category="{{ site.comments.giscus.category }}"
+          data-category-id="{{ site.comments.giscus.category_id }}"
+          data-mapping="{{ site.comments.giscus.mapping }}"
+          data-reactions-enabled="{{ site.comments.giscus.reactions_enabled }}"
+          data-emit-metadata="{{ site.comments.giscus.emit_metadata }}"
+          data-input-position="{{ site.comments.giscus.input_position }}"
+          data-theme="{{ site.comments.giscus.theme }}"
+          data-lang="{{ site.comments.giscus.lang }}"
+          data-loading="{{ site.comments.giscus.loading }}"
+          crossorigin="{{ site.comments.giscus.crossorigin }}"
+          async>
+  </script>
 {% endif %}
