@@ -1,3 +1,4 @@
+title:  "MUSINGS"
 permalink: /blog/
 layout: splash
 header:
