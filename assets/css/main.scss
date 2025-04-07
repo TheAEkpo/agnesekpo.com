@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes";
+
+.page__hero--overlay {
+  width: 100%;
+  max-width: 100%;
+}
+
+.page__hero--overlay img {
+  width: 100%;
+}
+.page__title {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+h1.page__title {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
