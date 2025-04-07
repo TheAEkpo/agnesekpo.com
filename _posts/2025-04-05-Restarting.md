@@ -14,7 +14,6 @@ tags:
   - web development
 excerpt: "Leaving the familiar behind, learning new tools, and rediscovering myself through data. Here's where I am and where I'm going."
 header:
-  overlay_image: /assets/images/restarting.jpg
   teaser: /assets/images/restarting.jpg
 ---
 
