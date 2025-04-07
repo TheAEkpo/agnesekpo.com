@@ -7,6 +7,8 @@ author_profile: false
 header:
   image: /assets/images/restarting.jpg
   teaser: /assets/images/restarting.jpg
+  overlay_image: /assets/images/restarting.jpg
+  image_description: "Sunrise in Woodbine, Dec. 2024"
 categories:
   - blog
 tags:
