@@ -3,15 +3,18 @@ layout: splash
 title: "AGNES EKPO"
 header:
   overlay_image: /assets/images/home.jpg
+  overlay_filter: 0.3
   overlay_full: true
-  overlay_filter: 0.2
+
   actions:
+    - label: "ABOUT"
+      URL: "/about/"
     - label: "PORTFOLIO"
       url: "/projects/"
     - label: "BLOG"
       url: "/blog/"
   
-excerpt: "Data Scientist | Insight, Strategy, Results."
+excerpt: "Data Scientist. Insight, Strategy, Results."
 
 ---
 
