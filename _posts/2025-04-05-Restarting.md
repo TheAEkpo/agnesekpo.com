@@ -2,7 +2,7 @@
 title: "Restarting, Relearning, Rebuilding"
 date: 2025-04-05
 comments: true
-layout: post
+layout: splash
 read_time: true
 author_profile: false
 categories:
