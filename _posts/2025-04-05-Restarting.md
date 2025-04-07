@@ -4,9 +4,8 @@ date: 2025-04-05
 layout: single
 read_time: true
 author_profile: false
-teaser: /assets/images/restarting.jpg
 <figure class="align-center">
-  <img src="/assets/images/restarting.jpg" alt="Restarting my journey">
+  <img src="/assets/images/restarting.jpg" alt="Sunrise in winter">
   <figcaption>Sunrise in winter</figcaption>
 </figure>
 categories:
