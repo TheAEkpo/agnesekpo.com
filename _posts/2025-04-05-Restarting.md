@@ -17,6 +17,9 @@ header:
   teaser: /assets/images/restarting.jpg
 ---
 
+![Restarting my journey](/assets/images/restarting.jpg){: .align-center}
+*Toronto Sunrise in Winter, 2024*
+
 Over the past few months, I’ve been rebuilding from the ground up: professionally, geographically, and creatively.
 
 In late 2024, I made the life-changing move from the UK to Canada, carrying nothing but my determination, a few suitcases, and a deep belief that something better was possible, and with that move came something else: the decision to *restart* my data science journey with new eyes, a broader vision, and a clearer sense of purpose.
@@ -26,7 +29,7 @@ One of the most exciting things I've done recently is building this website from
 At the same time, I’m deepening my skills through hands-on projects and collaborations. I joined the ALX Africa Data Science program, which challenges me to think not just like a coder but like a problem solver, using data as a language for change. One of the assignments tasked us with building our website, portfolio and personal brand.
 
 ### Oh, Canada!
-![Restarting my journey](/assets/images/restarting.jpg){: .align-center}
+
 
 Migration forces reinvention. Canada isn’t just a new home, it’s a new stage, a new rhythm, and a chance to create space for the things I genuinely want: meaningful work, intellectual growth, and creative freedom. The "job market" ( this phrase makes me laugh, and I seriously don't know why) is intense. It's been nearly four months, and I am wondering what I am not doing right and trying to improve and evolve.
 
