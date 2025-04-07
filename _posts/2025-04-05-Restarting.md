@@ -5,6 +5,10 @@ layout: single
 read_time: true
 author_profile: false
 teaser: /assets/images/restarting.jpg
+<figure class="align-center">
+  <img src="/assets/images/restarting.jpg" alt="Restarting my journey">
+  <figcaption>Sunrise in winter</figcaption>
+</figure>
 categories:
   - blog
 tags:
