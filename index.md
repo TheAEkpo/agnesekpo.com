@@ -25,7 +25,7 @@ Helping organizations turn data into clarity. Let’s connect the dots between d
     <i class="fab fa-github"></i> GITHUB
   </a>
   <a class="btn btn--info" href="https://www.linkedin.com/in/agnesekpo" target="_blank">
-    <i class="fab fa-linkedin"></i> LINKEDIN
+    <i class="fab fa-linkedin"></i> LinkedIn
   </a>
   <a class="btn btn--success" href="mailto:a.ekpo@outlook.com">
     <i class="fas fa-envelope"></i> EMAIL
