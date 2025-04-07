@@ -4,10 +4,6 @@ date: 2025-04-05
 layout: single
 read_time: true
 author_profile: false
-<figure class="align-center">
-  <img src="/assets/images/restarting.jpg" alt="Sunrise in winter">
-  <figcaption>Sunrise in winter</figcaption>
-</figure>
 categories:
   - blog
 tags:
@@ -17,6 +13,9 @@ tags:
   - data science
   - web development
 excerpt: "Leaving the familiar behind, learning new tools, and rediscovering myself through data. Here's where I am and where I'm going."
+header:
+  overlay_image: /assets/images/restarting.jpg
+  teaser: /assets/images/restarting.jpg
 ---
 
 Over the past few months, I’ve been rebuilding from the ground up: professionally, geographically, and creatively.
