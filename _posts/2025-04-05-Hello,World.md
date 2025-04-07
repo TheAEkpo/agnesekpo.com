@@ -4,8 +4,9 @@ date: 2025-04-05
 layout: single
 read_time: true
 author_profile: false
-image:
-  path: /assets/images/restarting.jpg
+header:
+  image: /assets/images/restarting.jpg
+  teaser: /assets/images/restarting.jpg
 categories:
   - blog
 tags:
