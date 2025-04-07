@@ -44,3 +44,6 @@ If you're reading this, thank you for being here. If you're also restarting, kno
 One skill, one line of code, one brave move at a time. 
 'XO
 
+{% if page.comments != false %}
+  {% include comments.html %}
+{% endif %}
