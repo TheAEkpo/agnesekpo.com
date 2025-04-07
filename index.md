@@ -22,12 +22,12 @@ excerpt: "Data Scientist"
 Helping organizations turn data into clarity. Let’s connect the dots between data and impact.
 <div style="margin-top: 20px;">
   <a class="btn btn--primary" href="https://github.com/TheAEkpo" target="_blank">
-    <i class="fab fa-github"></i> GitHub
+    <i class="fab fa-github"></i> GITHUB
   </a>
   <a class="btn btn--info" href="https://www.linkedin.com/in/agnesekpo" target="_blank">
-    <i class="fab fa-linkedin"></i> LinkedIn
+    <i class="fab fa-linkedin"></i> LINKEDIN
   </a>
   <a class="btn btn--success" href="mailto:a.ekpo@outlook.com">
-    <i class="fas fa-envelope"></i> Email Me
+    <i class="fas fa-envelope"></i> EMAIL
   </a>
 </div>
