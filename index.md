@@ -14,7 +14,7 @@ header:
     - label: "BLOG"
       url: "/blog/"
   
-excerpt: "Data Scientist. Insight, Strategy, Results."
+excerpt: "Data Scientist."
 
 ---
 
