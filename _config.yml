@@ -70,21 +70,15 @@ plugins:
 # Disable feed link from being added
 feed:
   path: ""
-
-comments:
-  provider: "giscus"  
-    data-repo="TheAEkpo/agnesekpo.com"
-    data-repo-id="R_kgDOOUrMew"
-    data-category="Announcements"
-    data-category-id="DIC_kwDOOUrMe84Co35-"
-    data-mapping="pathname"
-    data-strict="1"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-
+  
+#Comment page
+giscus:
+  repo: "TheAEkpo/agnesekpo.com"
+  repo_id: "R_kgDOOUrMew"
+  category: "Announcements"
+  category_id: "DIC_kwDOOUrMe84Co35-"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  theme: "preferred_color_scheme"
+  lang: "en"
+  loading: "lazy"
