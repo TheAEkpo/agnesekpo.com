@@ -4,11 +4,7 @@ date: 2025-04-05
 layout: single
 read_time: true
 author_profile: false
-header:
-  image: /assets/images/restarting.jpg
-  teaser: /assets/images/restarting.jpg
-  overlay_image: /assets/images/restarting.jpg
-  image_description: "Sunrise in Woodbine, Dec. 2024"
+teaser: /assets/images/restarting-teaser.jpg
 categories:
   - blog
 tags:
@@ -29,7 +25,7 @@ One of the most exciting things I've done recently is building this website from
 At the same time, I’m deepening my skills through hands-on projects and collaborations. I joined the ALX Africa Data Science program, which challenges me to think not just like a coder but like a problem solver, using data as a language for change. One of the assignments tasked us with building our website, portfolio and personal brand.
 
 ### Oh, Canada!
-
+![Restarting my journey](/assets/images/restarting.jpg){: .align-center}
 Migration forces reinvention. Canada isn’t just a new home, it’s a new stage, a new rhythm, and a chance to create space for the things I genuinely want: meaningful work, intellectual growth, and creative freedom. The "job market" ( this phrase makes me laugh, and I seriously don't know why) is intense. It's been early four months and I am wondering what I am not doing right and trying to adapt to it.
 
 I’m embracing the discomfort of the unfamiliar. I’m saying yes to things I once feared. And I’m documenting it all — not because I have it figured out, but because this is what building a life in tech *actually* looks like.
