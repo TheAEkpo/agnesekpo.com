@@ -1,7 +1,7 @@
 ---
 title: "PORTFOLIO"
 permalink: /projects/
-layout: splash
+layout: wide
 header:
   overlay_image: /assets/images/home.jpg
   overlay_filter: 0.3
