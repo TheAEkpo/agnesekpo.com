@@ -67,3 +67,7 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
+# Disable feed link from being added
+feed:
+  path: ""
+
