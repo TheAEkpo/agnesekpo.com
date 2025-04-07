@@ -1,7 +1,7 @@
 ---
 title: "Restarting, Relearning, Rebuilding"
 date: 2025-04-05
-layout: single
+layout: wide
 read_time: true
 author_profile: false
 categories:
