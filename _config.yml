@@ -71,7 +71,7 @@ plugins:
 feed:
   path: ""
   
-#Comment page
+# Comment page
 giscus:
   repo: "TheAEkpo/agnesekpo.com"
   repo_id: "R_kgDOOUrMew"
