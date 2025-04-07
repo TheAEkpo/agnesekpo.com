@@ -5,7 +5,7 @@ layout: single
 read_time: true
 author_profile: false
 image:
-  path: /assets/images/banner.jpg
+  path: /assets/images/restarting.jpg
 categories:
   - blog
 tags:
@@ -16,7 +16,7 @@ tags:
   - web development
 excerpt: "Leaving the familiar behind, learning new tools, and rediscovering myself through data. Here's where I am and where I'm going."
 ---
-
+<div style="text-align: justify;">
 Over the past few months, I’ve been rebuilding from the ground up: professionally, geographically, and creatively.
 
 In late 2024, I made the life-changing move from the UK to Canada, carrying nothing but my determination, a few suitcases, and a deep belief that something better was possible, and with that move came something else: the decision to *restart* my data science journey with new eyes, a broader vision, and a clearer sense of purpose.
@@ -39,3 +39,4 @@ If you're reading this, thank you for being here. If you're just starting over t
 
 One skill, one line of code, one brave move at a time. 
 'XO
+</div>
