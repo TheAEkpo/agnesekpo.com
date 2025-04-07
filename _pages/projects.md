@@ -3,7 +3,7 @@ title: "Portfolio"
 permalink: /projects/
 layout: splash
 header:
-  overlay_image: /assets/images/header-image.jpg
+  overlay_image: /assets/images/home.jpg
   overlay_filter: 0.3
   overlay_color: "#000"
   actions:
