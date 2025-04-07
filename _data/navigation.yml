@@ -3,5 +3,5 @@ main:
     url: /about/
   - title: "PORTFOLIO"
     url: /projects/
-  - title: "MUSINGS"
+  - title: "BLOG"
     url: /blog/
