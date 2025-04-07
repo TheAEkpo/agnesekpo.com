@@ -26,6 +26,7 @@ At the same time, I’m deepening my skills through hands-on projects and collab
 
 ### Oh, Canada!
 ![Restarting my journey](/assets/images/restarting.jpg){: .align-center}
+
 Migration forces reinvention. Canada isn’t just a new home, it’s a new stage, a new rhythm, and a chance to create space for the things I genuinely want: meaningful work, intellectual growth, and creative freedom. The "job market" ( this phrase makes me laugh, and I seriously don't know why) is intense. It's been early four months and I am wondering what I am not doing right and trying to adapt to it.
 
 I’m embracing the discomfort of the unfamiliar. I’m saying yes to things I once feared. And I’m documenting it all — not because I have it figured out, but because this is what building a life in tech *actually* looks like.
