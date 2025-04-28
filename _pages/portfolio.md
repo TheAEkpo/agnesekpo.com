@@ -8,11 +8,8 @@ header:
   overlay_color: "#1D2A50"
 excerpt: "Showcasing some of my projects across healthcare, analytics, and social impact domains."
 ---
-
-## My Projects
-
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
-
+<!--
 <div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
   <img src="https://via.placeholder.com/400x200?text=Pima+Indian+Diabetes" alt="Pima Indian Diabetes" style="width: 100%; border-radius: 8px;">
   <h3>Pima Indian Diabetes Analysis </h3>
@@ -20,7 +17,7 @@ excerpt: "Showcasing some of my projects across healthcare, analytics, and socia
   <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Pima-Indian-Diabetes-R" target="_blank">View Project</a>
 </div>
 
-<!--
+
 <div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
   <img src="https://via.placeholder.com/400x200?text=Feminence+Cycle+Tracker" alt="Feminence Cycle Tracker" style="width: 100%; border-radius: 8px;">
   <h3>Feminence: Cycle Tracker App </h3>
@@ -34,7 +31,6 @@ excerpt: "Showcasing some of my projects across healthcare, analytics, and socia
   <p>Application of explainable AI (XAI) techniques using Python and Jupyter to predict breast cancer survival outcomes.</p>
   <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Breast-Cancer-XAI" target="_blank">View Project</a>
 </div>
--->
 
 <div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
   <img src="https://via.placeholder.com/400x200?text=Ad+Performance+SQL" alt="Ad Performance Analysis" style="width: 100%; border-radius: 8px;">
@@ -50,7 +46,7 @@ excerpt: "Showcasing some of my projects across healthcare, analytics, and socia
   <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Hospital-Readmission-Python" target="_blank">View Project</a>
 </div>
 
-<!--
+
 <div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
   <img src="https://via.placeholder.com/400x200?text=Housing+Access+GCGO" alt="Housing Access Platform" style="width: 100%; border-radius: 8px;">
   <h3>Housing Access Platform - UrbanX </h3>
