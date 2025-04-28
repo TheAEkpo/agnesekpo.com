@@ -81,7 +81,7 @@ excerpt: "Showcasing some of my projects across healthcare, analytics, and socia
   <div class="project-title">Breast Cancer Survival Prediction (XAI Techniques)</div>
   <div class="project-desc">Application of explainable AI (XAI) techniques using Python and Jupyter to predict breast cancer survival outcomes.</div>
 </a>
--->
+
 
 <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Ad-Performance-SQL" class="project-card" target="_blank">
   <img src="https://via.placeholder.com/400x200?text=Ad+Performance+SQL" alt="Ad Performance Analysis">
@@ -95,7 +95,7 @@ excerpt: "Showcasing some of my projects across healthcare, analytics, and socia
   <div class="project-desc">Live coding project predicting hospital readmission risk using healthcare datasets and machine learning models.</div>
 </a>
 
-<!--
+
 <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Housing-Access-GCGO" class="project-card" target="_blank">
   <img src="https://via.placeholder.com/400x200?text=Housing+Access+GCGO" alt="Housing Access Platform">
   <div class="project-title">Housing Access Platform (GCGO Project)</div>
