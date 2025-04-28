@@ -8,51 +8,99 @@ header:
   overlay_color: "#1D2A50"
 excerpt: "Showcasing some of my projects across healthcare, analytics, and social impact domains."
 ---
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  background-color: #f5f7fa;
+  border-radius: 20px;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #1D2A50;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem 0;
+  color: #1D2A50;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  padding: 0 1rem 1.5rem 1rem;
+  color: #333;
+}
+</style>
+
+## My Projects
 <!--
-<div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
-  <img src="https://via.placeholder.com/400x200?text=Pima+Indian+Diabetes" alt="Pima Indian Diabetes" style="width: 100%; border-radius: 8px;">
-  <h3>Pima Indian Diabetes Analysis </h3>
-  <p>Exploratory data analysis and feature engineering for diabetes prediction using R language.</p>
-  <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Pima-Indian-Diabetes-R" target="_blank">View Project</a>
-</div>
+<div class="project-grid">
+
+<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Pima-Indian-Diabetes-R" class="project-card" target="_blank">
+  <img src="https://via.placeholder.com/400x200?text=Pima+Indian+Diabetes" alt="Pima Indian Diabetes">
+  <div class="project-title">Pima Indian Diabetes Analysis (R)</div>
+  <div class="project-desc">Exploratory data analysis and feature engineering for diabetes prediction using R language.</div>
+</a>
 
 
-<div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
-  <img src="https://via.placeholder.com/400x200?text=Feminence+Cycle+Tracker" alt="Feminence Cycle Tracker" style="width: 100%; border-radius: 8px;">
-  <h3>Feminence: Cycle Tracker App </h3>
-  <p>A Windows-based application built with C# and Visual Studio for menstrual cycle tracking and wellness prediction.</p>
-  <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Feminence-Cycle-Tracker" target="_blank">View Project</a>
-</div>
+<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Feminence-Cycle-Tracker" class="project-card" target="_blank">
+  <img src="https://via.placeholder.com/400x200?text=Feminence+Cycle+Tracker" alt="Feminence Cycle Tracker">
+  <div class="project-title">Feminence: Cycle Tracker App (C#)</div>
+  <div class="project-desc">A Windows-based application built with C# and Visual Studio for menstrual cycle tracking and wellness prediction.</div>
+</a>
 
-<div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
-  <img src="https://via.placeholder.com/400x200?text=Breast+Cancer+XAI" alt="Breast Cancer Survival Prediction" style="width: 100%; border-radius: 8px;">
-  <h3>Breast Cancer Survival Prediction (XAI Techniques)</h3>
-  <p>Application of explainable AI (XAI) techniques using Python and Jupyter to predict breast cancer survival outcomes.</p>
-  <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Breast-Cancer-XAI" target="_blank">View Project</a>
-</div>
+<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Breast-Cancer-XAI" class="project-card" target="_blank">
+  <img src="https://via.placeholder.com/400x200?text=Breast+Cancer+XAI" alt="Breast Cancer Survival Prediction">
+  <div class="project-title">Breast Cancer Survival Prediction (XAI Techniques)</div>
+  <div class="project-desc">Application of explainable AI (XAI) techniques using Python and Jupyter to predict breast cancer survival outcomes.</div>
+</a>
+-->
 
-<div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
-  <img src="https://via.placeholder.com/400x200?text=Ad+Performance+SQL" alt="Ad Performance Analysis" style="width: 100%; border-radius: 8px;">
-  <h3>Ad Performance Analysis </h3>
-  <p>SQL-based ad campaign analysis focusing on revenue, impressions, and site performance (Hive Media assignment).</p>
-  <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Ad-Performance-SQL" target="_blank">View Project</a>
-</div>
+<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Ad-Performance-SQL" class="project-card" target="_blank">
+  <img src="https://via.placeholder.com/400x200?text=Ad+Performance+SQL" alt="Ad Performance Analysis">
+  <div class="project-title">Ad Performance Analysis (SQL)</div>
+  <div class="project-desc">SQL-based ad campaign analysis focusing on revenue, impressions, and site performance (Hive Media assignment).</div>
+</a>
 
-<div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
-  <img src="https://via.placeholder.com/400x200?text=Hospital+Readmission+Python" alt="Hospital Readmission Prediction" style="width: 100%; border-radius: 8px;">
-  <h3>Hospital Readmission Prediction </h3>
-  <p>Live coding project predicting hospital readmission risk using healthcare datasets and machine learning models.</p>
-  <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Hospital-Readmission-Python" target="_blank">View Project</a>
-</div>
+<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Hospital-Readmission-Python" class="project-card" target="_blank">
+  <img src="https://via.placeholder.com/400x200?text=Hospital+Readmission+Python" alt="Hospital Readmission Prediction">
+  <div class="project-title">Hospital Readmission Prediction (Python)</div>
+  <div class="project-desc">Live coding project predicting hospital readmission risk using healthcare datasets and machine learning models.</div>
+</a>
 
-
-<div style="flex: 0 1 30%; border: 1px solid #ccc; border-radius: 12px; padding: 1rem;">
-  <img src="https://via.placeholder.com/400x200?text=Housing+Access+GCGO" alt="Housing Access Platform" style="width: 100%; border-radius: 8px;">
-  <h3>Housing Access Platform - UrbanX </h3>
-  <p>Prototype of a digital housing access and matchmaking platform for underserved urban populations (Global Hackathon Project).</p>
-  <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Housing-Access-GCGO" target="_blank">View Project</a>
-</div>
+<!--
+<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Housing-Access-GCGO" class="project-card" target="_blank">
+  <img src="https://via.placeholder.com/400x200?text=Housing+Access+GCGO" alt="Housing Access Platform">
+  <div class="project-title">Housing Access Platform (GCGO Project)</div>
+  <div class="project-desc">Prototype of a digital housing access and matchmaking platform for underserved urban populations (Global Hackathon Project).</div>
+</a>
 -->
 
 </div>
