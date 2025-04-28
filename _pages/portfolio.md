@@ -58,9 +58,9 @@ excerpt: "Showcasing some of my projects across healthcare, analytics, and socia
   color: #333;
 }
 </style>
-
-## My Projects
 <!--
+## My Projects
+
 <div class="project-grid">
 
 <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Pima-Indian-Diabetes-R" class="project-card" target="_blank">
