@@ -57,7 +57,7 @@ excerpt: "Turning complex data into impactful solutions — explore my latest pr
   opacity: 1;
 }
 </style>
-
+<!--
 
 <div class="gallery-grid">
 
@@ -66,7 +66,7 @@ excerpt: "Turning complex data into impactful solutions — explore my latest pr
   <div class="gallery-overlay">Pima Indian Diabetes (R)</div>
 </a>
 
-<!--
+
 <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Feminence-Cycle-Tracker" class="gallery-item" target="_blank">
   <img src="https://via.placeholder.com/400x250?text=Feminence+Cycle+Tracker" alt="Feminence Cycle Tracker App">
   <div class="gallery-overlay">Feminence Cycle Tracker (C#)</div>
@@ -76,7 +76,7 @@ excerpt: "Turning complex data into impactful solutions — explore my latest pr
   <img src="https://via.placeholder.com/400x250?text=Breast+Cancer+XAI" alt="Breast Cancer Survival Prediction">
   <div class="gallery-overlay">Breast Cancer Survival (XAI)</div>
 </a>
--->
+
 
 <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Ad-Performance-SQL" class="gallery-item" target="_blank">
   <img src="https://via.placeholder.com/400x250?text=Ad+Performance+SQL" alt="Ad Performance Analysis">
@@ -88,11 +88,12 @@ excerpt: "Turning complex data into impactful solutions — explore my latest pr
   <div class="gallery-overlay">Hospital Readmission (Python)</div>
 </a>
 
-<!--
+
 <a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Housing-Access-GCGO" class="gallery-item" target="_blank">
   <img src="https://via.placeholder.com/400x250?text=Housing+Access+GCGO" alt="Housing Access Platform">
   <div class="gallery-overlay">Housing Access (GCGO)</div>
 </a>
--->
+
 
 </div>
+-->
