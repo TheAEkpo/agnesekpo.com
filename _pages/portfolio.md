@@ -100,8 +100,8 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
 }
 </style>
 
-## Filter Gallery
-
+## Gallery
+<!--
 <div class="filter-bar">
   <button data-filter="all" class="active">Show All</button>
   <button data-filter="healthcare">Healthcare</button>
@@ -146,7 +146,7 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
   </div>
 </div>
 
-<!-- Add more projects here using the blank scaffold -->
+ Add more projects here using the blank scaffold -->
 
 </div>
 
