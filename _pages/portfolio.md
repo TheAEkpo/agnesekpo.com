@@ -12,8 +12,8 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
 <style>
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   margin-top: 2rem;
 }
 
@@ -22,17 +22,18 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
   overflow: hidden;
   border-radius: 10px;
   cursor: pointer;
+  height: 250px;
 }
 
 .gallery-item img {
   width: 100%;
-  height: 250px;
+  height: 100%;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  transition: transform 0.5s ease;
 }
 
 .gallery-item:hover img {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .gallery-overlay {
@@ -40,15 +41,14 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(29, 42, 80, 0.6); /* soft navy transparent */
+  background: rgba(29, 42, 80, 0.7);
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.4s ease;
-  font-size: 1.2rem;
-  font-weight: bold;
+  transition: opacity 0.5s ease;
   text-align: center;
   padding: 1rem;
 }
@@ -56,44 +56,65 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
 .gallery-item:hover .gallery-overlay {
   opacity: 1;
 }
+
+.gallery-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.gallery-buttons a {
+  background: white;
+  color: #1D2A50;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.gallery-buttons a:hover {
+  background: #ccc;
+}
 </style>
-<!--
+
+## Project Portfolio
 
 <div class="gallery-grid">
 
-<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Pima-Indian-Diabetes-R" class="gallery-item" target="_blank">
-  <img src="https://via.placeholder.com/400x250?text=Pima+Indian+Diabetes" alt="Pima Indian Diabetes Analysis">
-  <div class="gallery-overlay">Pima Indian Diabetes (R)</div>
-</a>
+<div class="gallery-item">
+  <img src="/assets/images/pima-indian-header.png" alt="Pima Indian Diabetes Analysis">
+  <div class="gallery-overlay">
+    <h3>Pima Indian Diabetes</h3>
+    <p>Exploratory analysis and predictive modeling in R.</p>
+    <div class="gallery-buttons">
+      <a href="https://github.com/TheAEkpo/pima-indian-diabetes-analysis" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
 
+<div class="gallery-item">
+  <img src="/assets/images/ad-performance-header.png" alt="Ad Performance SQL">
+  <div class="gallery-overlay">
+    <h3>Ad Performance Analysis</h3>
+    <p>SQL-based analysis of ad revenue and impressions.</p>
+    <div class="gallery-buttons">
+      <a href="https://github.com/TheAEkpo/ad-performance-sql" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
 
-<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Feminence-Cycle-Tracker" class="gallery-item" target="_blank">
-  <img src="https://via.placeholder.com/400x250?text=Feminence+Cycle+Tracker" alt="Feminence Cycle Tracker App">
-  <div class="gallery-overlay">Feminence Cycle Tracker (C#)</div>
-</a>
+<div class="gallery-item">
+  <img src="/assets/images/hospital-readmission-header.png" alt="Hospital Readmission">
+  <div class="gallery-overlay">
+    <h3>Hospital Readmission Prediction</h3>
+    <p>Predicting patient readmission risks using ML models.</p>
+    <div class="gallery-buttons">
+      <a href="https://github.com/TheAEkpo/hospital-readmission-prediction" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
 
-<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Breast-Cancer-XAI" class="gallery-item" target="_blank">
-  <img src="https://via.placeholder.com/400x250?text=Breast+Cancer+XAI" alt="Breast Cancer Survival Prediction">
-  <div class="gallery-overlay">Breast Cancer Survival (XAI)</div>
-</a>
-
-
-<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Ad-Performance-SQL" class="gallery-item" target="_blank">
-  <img src="https://via.placeholder.com/400x250?text=Ad+Performance+SQL" alt="Ad Performance Analysis">
-  <div class="gallery-overlay">Ad Performance (SQL)</div>
-</a>
-
-<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Hospital-Readmission-Python" class="gallery-item" target="_blank">
-  <img src="https://via.placeholder.com/400x250?text=Hospital+Readmission" alt="Hospital Readmission Prediction">
-  <div class="gallery-overlay">Hospital Readmission (Python)</div>
-</a>
-
-
-<a href="https://github.com/TheAEkpo/AEkportfolio/tree/main/Housing-Access-GCGO" class="gallery-item" target="_blank">
-  <img src="https://via.placeholder.com/400x250?text=Housing+Access+GCGO" alt="Housing Access Platform">
-  <div class="gallery-overlay">Housing Access (GCGO)</div>
-</a>
-
+<!-- Add more projects here following the same structure -->
 
 </div>
--->
