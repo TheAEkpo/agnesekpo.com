@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Agnes Ekpo"
+title: 
 header:
   overlay_image: /assets/images/home.jpg
   overlay_filter: 0.2
@@ -60,7 +60,6 @@ I focus on actionable insights, building systems teams trust, telling better sto
     <img src="https://cdn.simpleicons.org/gmail/1D2A50/white" alt="Email">
   </a>
 </div>
-
 
 <!--
 
