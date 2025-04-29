@@ -3,7 +3,7 @@ layout: splash
 title: "AGNES EKPO"
 header:
   overlay_image: /assets/images/home.jpg
-  overlay_filter: 0.3
+  overlay_filter: 0.1
   overlay_full: true
 
   actions:
