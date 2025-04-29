@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/home.jpg
   overlay_filter: 0.1
   overlay_color: "#1D2A50"
-excerpt: "Turning complex data into impactful solutions. Explore some of my projects across healthcare, business, finance, and social impact."
+excerpt: { color: #000; "Turning complex data into impactful solutions. Explore some of my projects across healthcare, business, finance, and social impact."}
 ---
 
 <style>
