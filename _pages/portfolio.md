@@ -146,9 +146,10 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
   </div>
 </div>
 
- Add more projects here using the blank scaffold -->
+ Add more projects here using the blank scaffold 
 
 </div>
+-->
 
 <script>
 const filterButtons = document.querySelectorAll('.filter-bar button');
