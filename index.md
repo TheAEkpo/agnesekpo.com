@@ -10,7 +10,7 @@ permalink: /
 
 # About
 
-<img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 400px; border-radius: 20px; margin-left: 20px;">
+<img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 500px; border-radius: 20px; margin-left: 20px;">
 
 Hello, I am Agnes. A data analyst with a background in pharmacy and a passion for making insight-driven decisions possible. I work with businesses, nonprofits, and health organizations to help them translate their data into meaningful action.
 
@@ -22,17 +22,33 @@ My toolset includes **Python**, **SQL**, **Power BI**, and **Excel**, but what t
 
 I focus on actionable insights, building systems teams trust, telling better stories with data, and grounding solutions in both the numbers and the human context.
 
+If you're thinking about your next data project and want someone who understands both the analytics and the business side, I’d love to hear from you.
 ---
 
-## Let's Connect
+## CONNECT
+<style>
+.social-icons a img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
 
-If you're thinking about your next data project and want someone who understands both the analytics and the business side, I’d love to hear from you.
+.social-icons a:hover img {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+}
+</style>
 
-<div style="margin-top: 1rem;">
-<a href="https://github.com/TheAEkpo" target="_blank" style="margin-right: 1rem;">GitHub</a>
-<a href="https://linkedin.com/in/agnesekpo" target="_blank" style="margin-right: 1rem;">LinkedIn</a>
-<a href="mailto:a.ekpo@outlook.com" target="_blank">Email</a>
+<div class="social-icons" style="text-align: center; margin-top: 2rem;">
+  <a href="https://github.com/TheAEkpo" target="_blank" style="margin: 0 1rem;">
+    <img src="https://cdn.simpleicons.org/github/1D2A50/white" alt="GitHub" width="60" height="60">
+  </a>
+  <a href="https://linkedin.com/in/agnesekpo" target="_blank" style="margin: 0 1rem;">
+    <img src="https://cdn.simpleicons.org/linkedin/1D2A50/white" alt="LinkedIn" width="60" height="60">
+  </a>
+  <a href="mailto:a.ekpo@outlook.com" target="_blank" style="margin: 0 1rem;">
+    <img src="https://cdn.simpleicons.org/gmail/1D2A50/white" alt="Email" width="60" height="60">
+  </a>
 </div>
+
 
 <!--
 
