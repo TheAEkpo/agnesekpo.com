@@ -10,7 +10,7 @@ header:
     - label: "ABOUT"
       URL: "/about/"
     - label: "PORTFOLIO"
-      url: "/projects/"
+      url: "/portfolio/"
     - label: "BLOG"
       url: "/blog/"
   
