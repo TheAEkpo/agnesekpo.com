@@ -17,6 +17,7 @@ Hello, I am Agnes. A data analyst with a background in pharmacy and a passion fo
 Whether it’s improving operational efficiency, optimizing reporting workflows, or uncovering key performance trends, I bring structure and clarity to complex data challenges.
 
 I’ve delivered projects across healthcare, finance, tech, and the social sector, combining strategic thinking with hands-on analytics to solve real problems.  
+
 My toolset includes **Python**, **SQL**, **Power BI**, and **Excel**, but what truly sets my work apart is how I connect the dots between data and people.
 
 I focus on actionable insights, building systems teams trust, telling better stories with data, and grounding solutions in both the numbers and the human context.
