@@ -10,7 +10,7 @@ permalink: /
 
 # About
 
-<img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 250px; border-radius: 20px; margin-left: 20px;">
+<img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 400px; border-radius: 20px; margin-left: 20px;">
 
 Hello, I am Agnes. A data analyst with a background in pharmacy and a passion for making insight-driven decisions possible. I work with businesses, nonprofits, and health organizations to help them translate their data into meaningful action.
 
