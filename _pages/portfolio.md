@@ -4,9 +4,9 @@ permalink: /portfolio/
 layout: splash
 header:
   overlay_image: /assets/images/home.jpg
-  overlay_filter: 0.05
+  overlay_filter: 0.1
   overlay_color: "#1D2A50"
-excerpt: "Turning complex data into impactful solutions. Explore my latest projects across healthcare, fintech, and social impact."
+excerpt: "Turning complex data into impactful solutions. Explore some of my projects across healthcare, business, finance, and social impact."
 ---
 
 <style>
@@ -100,20 +100,19 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
 }
 </style>
 
-## Portfolio Gallery
+## Filter Gallery
 
 <div class="filter-bar">
   <button data-filter="all" class="active">Show All</button>
-  <button data-filter="ml">Machine Learning</button>
-  <button data-filter="sql">SQL</button>
-  <button data-filter="viz">Data Viz</button>
-  <button data-filter="app">Apps</button>
-  <button data-filter="paper">Papers</button>
+  <button data-filter="healthcare">Healthcare</button>
+  <button data-filter="business">Business</button>
+  <button data-filter="finance">Finance</button>
+  <button data-filter="social">Social Impact</button>
 </div>
 
 <div class="gallery-grid">
 
-<div class="gallery-item ml">
+<div class="gallery-item healthcare">
   <img src="/assets/images/pima-indian-header.png" alt="Pima Indian Diabetes">
   <div class="gallery-overlay">
     <h3>Pima Indian Diabetes</h3>
@@ -125,7 +124,7 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
   </div>
 </div>
 
-<div class="gallery-item sql">
+<div class="gallery-item business">
   <img src="/assets/images/ad-performance-header.png" alt="Ad Performance Analysis">
   <div class="gallery-overlay">
     <h3>Ad Performance Analysis</h3>
@@ -136,8 +135,8 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
   </div>
 </div>
 
-<div class="gallery-item ml">
-  <img src="/assets/images/hospital-readmission-header.png" alt="Hospital Readmission">
+<div class="gallery-item healthcare">
+  <img src="/assets/images/hospital-readmission-header.png" alt="Hospital Readmission Prediction">
   <div class="gallery-overlay">
     <h3>Hospital Readmission</h3>
     <p>Predicting patient readmission risks using ML models.</p>
@@ -147,7 +146,7 @@ excerpt: "Turning complex data into impactful solutions. Explore my latest proje
   </div>
 </div>
 
-<!-- Add more projects here following the same structure -->
+<!-- Add more projects here using the blank scaffold -->
 
 </div>
 
