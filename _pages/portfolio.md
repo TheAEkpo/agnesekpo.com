@@ -1,6 +1,6 @@
 ---
 title: "PORTFOLIO"
-permalink: /projects/
+permalink: /portfolio/
 layout: splash
 header:
   overlay_image: /assets/images/home.jpg
