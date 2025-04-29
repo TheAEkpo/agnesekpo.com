@@ -8,7 +8,6 @@ excerpt: "Helping organizations turn data into clarity. Connecting the dots betw
 permalink: /
 ---
 
-# About
 
 <img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 500px; border-radius: 20px; margin-left: 20px;">
 
