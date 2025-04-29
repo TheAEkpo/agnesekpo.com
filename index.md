@@ -20,32 +20,43 @@ I’ve delivered projects across healthcare, finance, tech, and the social secto
 
 My toolset includes **Python**, **SQL**, **Power BI**, and **Excel**, but what truly sets my work apart is how I connect the dots between data and people.
 
-I focus on actionable insights, building systems teams trust, telling better stories with data, and grounding solutions in both the numbers and the human context.
-
-If you're thinking about your next data project and want someone who understands both the analytics and the business side, I’d love to hear from you.
+I focus on actionable insights, building systems teams trust, telling better stories with data, and grounding solutions in both the numbers and the human context.  If you're thinking about your next data project and want someone who understands both the analytics and the business side, I’d love to hear from you.
 ---
-
-## CONNECT
 <style>
-.social-icons a img {
-  transition: transform 0.3s ease, filter 0.3s ease;
+.social-icons {
+  text-align: center;
+  margin-top: 2rem;
 }
 
-.social-icons a:hover img {
+.social-icons a {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #1D2A50;
   transform: scale(1.2);
-  filter: brightness(1.3);
+}
+
+.social-icons a img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease;
 }
 </style>
 
-<div class="social-icons" style="text-align: center; margin-top: 2rem;">
-  <a href="https://github.com/TheAEkpo" target="_blank" style="margin: 0 1rem;">
-    <img src="https://cdn.simpleicons.org/github/1D2A50/white" alt="GitHub" width="60" height="60">
+<div class="social-icons">
+  <a href="https://github.com/TheAEkpo" target="_blank">
+    <img src="https://cdn.simpleicons.org/github/1D2A50/white" alt="GitHub">
   </a>
-  <a href="https://linkedin.com/in/agnesekpo" target="_blank" style="margin: 0 1rem;">
-    <img src="https://cdn.simpleicons.org/linkedin/1D2A50/white" alt="LinkedIn" width="60" height="60">
+  <a href="https://linkedin.com/in/agnesekpo" target="_blank">
+    <img src="https://cdn.simpleicons.org/linkedin/1D2A50/white" alt="LinkedIn">
   </a>
-  <a href="mailto:a.ekpo@outlook.com" target="_blank" style="margin: 0 1rem;">
-    <img src="https://cdn.simpleicons.org/gmail/1D2A50/white" alt="Email" width="60" height="60">
+  <a href="mailto:a.ekpo@outlook.com" target="_blank">
+    <img src="https://cdn.simpleicons.org/gmail/1D2A50/white" alt="Email">
   </a>
 </div>
 
