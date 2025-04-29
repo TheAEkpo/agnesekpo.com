@@ -1,33 +1,46 @@
 ---
-layout: splash
-title: "AGNES EKPO"
+layout: single
+title: "Agnes Ekpo"
 header:
   overlay_image: /assets/images/home.jpg
-  overlay_filter: 0.1
-  overlay_full: true
+  overlay_filter: 0.3
+excerpt: "Helping organizations turn data into clarity. Connecting the dots between data and impact."
+permalink: /
+---
 
-  actions:
-    - label: "ABOUT"
-      URL: "/about/"
-    - label: "PORTFOLIO"
-      url: "/portfolio/"
-    - label: "BLOG"
-      url: "/blog/"
-  
-excerpt: "Data Scientist"
+# Hi, I'm Agnes
+
+<img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 250px; border-radius: 10px; margin-left: 20px;">
+
+I’m a data analyst with a background in pharmacy and a passion for making insight-driven decisions possible. I work with businesses, nonprofits, and health organizations to help them translate their data into meaningful action.
+
+Whether it’s improving operational efficiency, optimizing reporting workflows, or uncovering key performance trends, I bring structure and clarity to complex data challenges.
 
 ---
 
-<div style="text-align: center; max-width: 750px; margin: 0 auto; font-size: 1.1rem; line-height: 1.7; text-align: justify;">
-Helping organizations turn data into clarity. Let’s connect the dots between data and impact.
-<div style="margin-top: 20px;">
-  <a class="btn btn--primary" href="https://github.com/TheAEkpo" target="_blank">
-    <i class="fab fa-github"></i> GITHUB
-  </a>
-  <a class="btn btn--info" href="https://www.linkedin.com/in/agnesekpo" target="_blank">
-    <i class="fab fa-linkedin"></i> LinkedIn
-  </a>
-  <a class="btn btn--success" href="mailto:a.ekpo@outlook.com">
-    <i class="fas fa-envelope"></i> EMAIL
-  </a>
+## My Approach
+
+I’ve delivered projects across healthcare, finance, tech, and the social sector, combining strategic thinking with hands-on analytics to solve real problems.  
+My toolset includes **Python**, **SQL**, **Power BI**, and **Excel**, but what truly sets my work apart is how I connect the dots between data and people.
+
+I focus on actionable insights — building systems teams trust, telling better stories with data, and grounding solutions in both the numbers and the human context.
+
+---
+
+## Let's Connect
+
+If you're thinking about your next data project and want someone who understands both the analytics and the business side, I’d love to hear from you.
+
+<div style="margin-top: 1rem;">
+<a href="https://github.com/TheAEkpo" target="_blank" style="margin-right: 1rem;">GitHub</a>
+<a href="https://linkedin.com/in/agnesekpo" target="_blank" style="margin-right: 1rem;">LinkedIn</a>
+<a href="mailto:a.ekpo@outlook.com" target="_blank">Email</a>
+</div>
+
+---
+
+## Watch My Introduction
+
+<div style="margin-top: 2rem;">
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
 </div>
