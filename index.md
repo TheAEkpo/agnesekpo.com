@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: splash
 title: "Agnes Ekpo"
 header:
   overlay_image: /assets/images/home.jpg
