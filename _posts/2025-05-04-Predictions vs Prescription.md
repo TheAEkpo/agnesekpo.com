@@ -22,7 +22,7 @@ header:
 
 You know you've taken an unexpected turn in your career when your daily concerns shift from *"Will this antibiotic cause kidney failure?"* to _"Will this loop crash my machine?"_
 
-That’s been my journey from clinical pharmacist to data scientist. On the surface, these two paths couldn’t seem more different. One involves lab coats, compounding tools, and patient counselling at odd hours. The other, lines of Python code, data dashboards, and unexplained error messages at 2a.m. But the longer I walk this path, the more I realize how deeply connected these worlds actually are.
+That’s been my journey from clinical pharmacist to data scientist. On the surface, these two paths couldn’t seem more different. One involves lab coats, compounding tools, and patient counselling at odd hours. The other, hundreds of lines of code, technical tools, and unexplained error messages at 2a.m. However, the longer I walk this path, the more I realize how deeply connected these worlds actually are.
 
 ## Clinical Pharmacy: Where the Answers Are Meant to Be Known
 
@@ -36,7 +36,7 @@ Stepping into data science was like stepping off the map. Suddenly, no one was h
 
 There was no formulary to consult. No BNF. Just data, curiosity, and a lot of Googling or hoping someone responds to your question on Stack Overflow because you could not find an exact match to your situation from the past questions other people have asked. In pharmacy, “I don’t know” felt like a failing grade. In data science, it’s where the work begins. You learn to live in uncertainty. You ask questions that may not have answers yet. You run models that half-work, dig through noise to find patterns, and try again when they don’t hold up.
 
-It’s messy. It’s humbling...and it’s wildly fulfilling.
+It’s messy, it’s humbling... and it’s wildly fulfilling.
 
 ## What Ties Them Together...
 
