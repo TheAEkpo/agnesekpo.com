@@ -141,7 +141,11 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
   <img src="/assets/images/claims-cost-summary.png" alt="Hospital Claims: Cost, Outcomes & Readmissions">
   <div class="gallery-overlay">
     <h3>Hospital Claims: Cost, Outcomes & Readmissions</h3>
-    <p>Python-based analysis of a synthetic healthcare dataset.</p>
+    <p>Analyzed synthetic healthcare claims data to uncover patterns in hospital costs, readmission risks, and treatment burden across insurance types.  
+          Key findings include:
+              - High-cost conditions: GERD, Dorsalgia, Diabetes
+              - Top readmission risks: Mental health & musculoskeletal pain
+              - Visualization of diagnosis trends, LOS vs. cost, and insurer patterns.</p>
     <div class="gallery-buttons">
       <a href="https://github.com/TheAEkpo/hospital-claims-cost-outcomes" target="_blank">GitHub</a>
     </div>
