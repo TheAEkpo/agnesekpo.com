@@ -13,8 +13,7 @@ tags:
   - women-in-tech
   - health-tech
 excerpt: "From clinical pharmacist to data scientist: how the knowns and unknowns of two different worlds taught me to think, question, and explore."
-header:
-  teaser: /assets/images/prescriptions-vs-predictions.gif
+header: teaser: /assets/images/prescriptions-vs-predictions.gif
 ---
 
 ![Prescription vs Prediction](/assets/images/prescriptions-vs-predictions.gif){: .align-center}
