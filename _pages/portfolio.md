@@ -135,21 +135,22 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
   </div>
 </div>
 
+-->
+
 <div class="gallery-item healthcare">
-  <img src="/assets/images/hospital-readmission-header.png" alt="Hospital Readmission Prediction">
+  <img src="/assets/images/claims-cost-summary.png" alt="Hospital Claims: Cost, Outcomes & Readmissions">
   <div class="gallery-overlay">
-    <h3>Hospital Readmission</h3>
-    <p>Predicting patient readmission risks using ML models.</p>
+    <h3>Hospital Claims: Cost, Outcomes & Readmissions</h3>
+    <p>Python-based analysis of a synthetic healthcare dataset.</p>
     <div class="gallery-buttons">
-      <a href="https://github.com/TheAEkpo/hospital-readmission-prediction" target="_blank">GitHub</a>
+      <a href="https://github.com/TheAEkpo/hospital-claims-analysis" target="_blank">GitHub</a>
     </div>
   </div>
 </div>
 
- Add more projects here using the blank scaffold 
 
 </div>
--->
+
 
 <script>
 const filterButtons = document.querySelectorAll('.filter-bar button');
