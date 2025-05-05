@@ -1,13 +1,21 @@
 ---
-
 title: "Prescriptions vs. Predictions: Reflecting on My Career Transition"
 date: 2025-05-04
-author: Agnes Ekpo
-layout: post
-image: /assets/images/prescriptions-vs-predictions.gif
-categories: \[career, pharmacy, data-science, transition]
+comments: true
+layout: splash
+read_time: true
+author_profile: false
 tags: \[career-pivot, pharmacy, data-science, women-in-tech, health-tech]
+categories:
+  - blog
+tags:
+  - career-pivot
+  - data-science
+  - women-in-tech
+  - health-tech
 excerpt: "From clinical pharmacist to data scientist: how the knowns and unknowns of two different worlds taught me to think, question, and explore."
+header:
+  teaser:  /assets/images/prescriptions-vs-predictions.gif
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 You know you've taken an unexpected turn in your career when your daily concerns shift from *"Will this antibiotic cause kidney failure?"* to \*"Will this loop crash my machine?"
