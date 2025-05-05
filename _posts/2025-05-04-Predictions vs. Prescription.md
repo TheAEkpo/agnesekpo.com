@@ -1,5 +1,4 @@
 ---
----
 title: "Prescriptions vs. Predictions: Reflecting on My Career Transition"
 date: 2025-05-04
 comments: true
