@@ -143,7 +143,7 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
     <h3>Hospital Claims: Cost, Outcomes & Readmissions</h3>
     <p>Python-based analysis of a synthetic healthcare dataset.</p>
     <div class="gallery-buttons">
-      <a href="https://github.com/TheAEkpo/hospital-claims-analysis" target="_blank">GitHub</a>
+      <a href="https://github.com/TheAEkpo/hospital-claims-cost-outcomes" target="_blank">GitHub</a>
     </div>
   </div>
 </div>
