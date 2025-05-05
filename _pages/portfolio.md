@@ -138,7 +138,7 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
 -->
 
 <div class="gallery-item healthcare">
-  <img src="/assets/images/claims-cost-summary.png" alt:"Cost outcome visual">
+  <img src="/assets/images/claims-cost-summary.png" alt="Cost outcome visual">
   <div class="gallery-overlay">
     <h3>Hospital Claims: Cost, Outcomes & Readmissions</h3>
     <p>Explored synthetic hospital claims data to identify high-cost diagnoses, analyze readmission patterns, and visualize patient outcomes.</p>
