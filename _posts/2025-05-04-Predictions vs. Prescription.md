@@ -20,23 +20,23 @@ header:
 ![Prescription vs Prediction](/assets/images/prescriptions-vs-predictions.gif){: .align-center}
 *Pharmacy meets Data Science Gif generated with Sora*
 
-You know you've taken an unexpected turn in your career when your daily concerns shift from *"Will this antibiotic cause kidney failure?"* to \"Will this loop crash my machine?"
+You know you've taken an unexpected turn in your career when your daily concerns shift from *"Will this antibiotic cause kidney failure?"* to _"Will this loop crash my machine?"_
 
-That’s been my journey from clinical pharmacist to data scientist. On the surface, these two paths couldn’t seem more different. One involves lab coats, compounding tools, and patient counsellimg at odd hours. The other, lines of Python code, data dashboards, and unexplained error messages at 2a.m. But the longer I walk this path, the more I realize how deeply connected these worlds actually are.
+That’s been my journey from clinical pharmacist to data scientist. On the surface, these two paths couldn’t seem more different. One involves lab coats, compounding tools, and patient counselling at odd hours. The other, lines of Python code, data dashboards, and unexplained error messages at 2a.m. But the longer I walk this path, the more I realize how deeply connected these worlds actually are.
 
 ## Clinical Pharmacy: Where the Answers Are Meant to Be Known
 
-In pharmacy school, we were trained to be experts in the known. Every drug had a mechanism, a half-life, a set of interactions and contraindications. We memorized pathways, mastered protocols, and understood how substances moved through the body. If a patient presented with a problem, our job was to connect symptoms to interventions with precision. The knowledge was already mapped. And in many cases, the "right answer" was backed by decades of clinical research.
+In pharmacy school, we were trained to be experts in the known. Every drug had a mechanism, a half-life, a set of interactions and contraindications. We memorized pathways, mastered protocols, and understood how substances moved through the body. If a patient presented with a problem, our job was to connect symptoms to interventions with precision. The knowledge was already mapped, and in many cases, the "right answer" was backed by decades of clinical research.
 
-But even within that structure, things weren’t always clear. Patients responded unpredictably. Polypharmacy created endless grey zones. Sometimes, the textbook didn’t match the human in front of you. We adjusted, investigated, collaborated. We worked within the knowns, but we were always watching for the unknowns trying to slip through.
+But even within that structure, things weren’t always clear e.g. patients responded unpredictably, polypharmacy created endless grey zones, and sometimes, the textbook didn’t match the human in front of you. We adjusted, investigated, collaborated. We worked within the knowns, but we were always watching for the unknowns trying to slip through.
 
 ## Data Science: Where the Answers Are Still Being Written
 
-Stepping into data science was like stepping off the map. Suddenly, no one was handing me a neat protocol. Instead, I was given a raw dataset and a vague question like *"Why are customers churning?"* or \"Can we predict this trend before it happens?"
+Stepping into data science was like stepping off the map. Suddenly, no one was handing me a neat protocol. Instead, I was given a raw dataset and a vague question like *"Why are customers churning?"* or *"Can we predict this trend before it happens?"*
 
 There was no formulary to consult. No BNF. Just data, curiosity, and a lot of Googling or hoping someone responds to your question on Stack Overflow because you could not find an exact match to your situation from the past questions other people have asked. In pharmacy, “I don’t know” felt like a failing grade. In data science, it’s where the work begins. You learn to live in uncertainty. You ask questions that may not have answers yet. You run models that half-work, dig through noise to find patterns, and try again when they don’t hold up.
 
-It’s messy. It’s humbling. And it’s wildly fulfilling.
+It’s messy. It’s humbling...and it’s wildly fulfilling.
 
 ## What Ties Them Together...
 
@@ -51,13 +51,31 @@ Pharmacy taught me how to honor the known. Data science taught me how to chase t
 
 ## So Are They Really That Different?
 
-People ask me all the time: how did you go from pharmacy to data science? Aren’t they completely different?
+People ask me all the time: "How did you go from pharmacy to data science? Aren’t they completely different?"
 
-And yes, at first glance, they feel like opposites. One deals with prescriptions, the other with predictions. But both require the same core mindset. You’re interpreting signals, synthesizing evidence, and trying to create clarity where there isn’t enough of it. You’re helping people, patients, doctors, stakeholders, make better decisions.
+Yes, at first glance, they feel like opposites. One deals with prescriptions, the other with predictions. But both require the same core mindset because you’re interpreting signals, synthesizing evidence, and trying to create clarity where there isn’t enough of it. You’re helping people - patients, doctors, stakeholders - make better decisions.
 
-Pharmacy gave me a deep respect for systems. Data science gave me the courage to question them. And in both, I've learned that the real power comes not from always having the answers, but from knowing how to look for them.
+Pharmacy gave me a deep respect for systems while data science gave me the courage to question them, and in both, I've learned that the real power comes not from always having the answers, but from knowing how to look for them.
 
-Anyways, three years after my full transition into tech, my dad still starts every WhatsApp message with, "_Pharm, how are you?_" as if no transition ever happened.And maybe he’s right. Maybe the role changed, but the mission didn’t.
+Anyways, its been three years since my full transition into tech, my dad still starts every WhatsApp message with, "_Pharm, how are you?_" as if no transition ever happened. Maybe he’s right, the role changed but the mission didn’t.
 
 ---
 *Have you made a big career pivot? Or are you considering one? I’d love to hear your story. Drop a comment or message me. I’m all ears.*
+
+{% if site.comments.provider == "giscus" %}
+  <script src="https://giscus.app/client.js"
+          data-repo="{{ site.comments.giscus.repo }}"
+          data-repo-id="{{ site.comments.giscus.repo_id }}"
+          data-category="{{ site.comments.giscus.category }}"
+          data-category-id="{{ site.comments.giscus.category_id }}"
+          data-mapping="{{ site.comments.giscus.mapping }}"
+          data-reactions-enabled="{{ site.comments.giscus.reactions_enabled }}"
+          data-emit-metadata="{{ site.comments.giscus.emit_metadata }}"
+          data-input-position="{{ site.comments.giscus.input_position }}"
+          data-theme="{{ site.comments.giscus.theme }}"
+          data-lang="{{ site.comments.giscus.lang }}"
+          data-loading="{{ site.comments.giscus.loading }}"
+          crossorigin="{{ site.comments.giscus.crossorigin }}"
+          async>
+  </script>
+{% endif %}
