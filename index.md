@@ -63,26 +63,6 @@ I focus on actionable insights, building systems teams trust, telling better sto
     height: 24px;
   }
 }
-
-/* Footer styles (unstyled links) */
-.footer-links {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.footer-links a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #1D2A50;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-footer p {
-  text-align: center;
-  font-size: 13px;
-  color: #666;
-}
 </style>
 
 <!-- CIRCULAR ICON SECTION -->
