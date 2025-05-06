@@ -102,15 +102,7 @@ footer p {
   </a>
 </div>
 
-<!-- CLEAN FOOTER SECTION -->
-<footer>
-  <div class="footer-links">
-    <a href="https://github.com/TheAEkpo" target="_blank">GITHUB</a>
-    <a href="https://linkedin.com/in/agnesekpo" target="_blank">LINKEDIN</a>
-    <a href="mailto:a.ekpo@outlook.com">EMAIL</a>
-  </div>
-  <p>© 2025 AGNES EKPO.</p>
-</footer>
+
 <!--
 
 ## Watch My Introduction
