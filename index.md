@@ -8,7 +8,6 @@ excerpt: "Helping organizations turn data into clarity. Connecting the dots betw
 permalink: /
 ---
 
-
 <img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 500px; border-radius: 20px; margin-left: 20px;">
 
 Hello, I am Agnes. A data analyst with a background in pharmacy and a passion for making insight-driven decisions possible. I work with businesses, nonprofits, and health organizations to help them translate their data into meaningful action.
@@ -24,12 +23,7 @@ I focus on actionable insights, building systems teams trust, telling better sto
 ---
 <!-- STYLING -->
 <style>
-/* Top circular icon section */
-.social-icons {
-  text-align: center;
-  margin-top: 2rem;
-}
-
+  
 .social-icons a {
   display: inline-block;
   margin: 0 0.75rem;
