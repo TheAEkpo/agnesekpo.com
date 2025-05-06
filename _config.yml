@@ -23,7 +23,7 @@ author:
     - label: "Portfolio"
       icon: "fab fa-fw fa-briefcase"
       url: "https://www.datascienceportfol.io/aekpo"
-
+<!--
 footer:
   links:
     - label: "GitHub"
@@ -35,7 +35,7 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:a.ekpo@outlook.com"
-
+--!>
 # Defaults
 defaults:
   # _posts
