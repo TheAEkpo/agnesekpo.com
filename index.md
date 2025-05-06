@@ -22,7 +22,9 @@ My toolset includes **Python**, **SQL**, **Power BI**, and **Excel**, but what t
 I focus on actionable insights, building systems teams trust, telling better stories with data, and grounding solutions in both the numbers and the human context.  If you're thinking about your next data project and want someone who understands both the analytics and the business side, I’d love to hear from you.
 
 ---
+<!-- STYLING -->
 <style>
+/* Top circular icon section */
 .social-icons {
   text-align: center;
   margin-top: 2rem;
@@ -48,19 +50,42 @@ I focus on actionable insights, building systems teams trust, telling better sto
   display: block;
 }
 
+/* Responsive behavior for mobile */
 @media (max-width: 600px) {
   .social-icons a {
     padding: 12px;
     margin: 0 0.5rem;
   }
+
   .social-icons a img,
   .social-icons a svg {
     width: 24px;
     height: 24px;
   }
 }
+
+/* Footer styles (unstyled links) */
+.footer-links {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #1D2A50;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
 </style>
 
+<!-- CIRCULAR ICON SECTION -->
 <div class="social-icons">
   <a href="https://github.com/TheAEkpo" target="_blank">
     <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub">
@@ -77,6 +102,15 @@ I focus on actionable insights, building systems teams trust, telling better sto
   </a>
 </div>
 
+<!-- CLEAN FOOTER SECTION -->
+<footer>
+  <div class="footer-links">
+    <a href="https://github.com/TheAEkpo" target="_blank">GITHUB</a>
+    <a href="https://linkedin.com/in/agnesekpo" target="_blank">LINKEDIN</a>
+    <a href="mailto:a.ekpo@outlook.com">EMAIL</a>
+  </div>
+  <p>© 2025 AGNES EKPO.</p>
+</footer>
 <!--
 
 ## Watch My Introduction
