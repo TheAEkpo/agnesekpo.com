@@ -24,18 +24,6 @@ author:
       icon: "fab fa-fw fa-briefcase"
       url: "https://www.datascienceportfol.io/aekpo"
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/TheAEkpo"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/agnesekpo"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:a.ekpo@outlook.com"
-
 # Defaults
 defaults:
   # _posts
