@@ -30,7 +30,7 @@ I focus on actionable insights, building systems teams trust, telling better sto
 
 .social-icons a {
   display: inline-block;
-  margin: 0 1rem;
+  margin: 0 0.75rem;
   padding: 15px;
   background-color: #1D2A50;
   border-radius: 50%;
@@ -47,6 +47,18 @@ I focus on actionable insights, building systems teams trust, telling better sto
   height: 30px;
   display: block;
 }
+
+@media (max-width: 600px) {
+  .social-icons a {
+    padding: 12px;
+    margin: 0 0.5rem;
+  }
+  .social-icons a img,
+  .social-icons a svg {
+    width: 24px;
+    height: 24px;
+  }
+}
 </style>
 
 <div class="social-icons">
@@ -54,7 +66,9 @@ I focus on actionable insights, building systems teams trust, telling better sto
     <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub">
   </a>
   <a href="https://linkedin.com/in/agnesekpo" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/ffffff" alt="LinkedIn">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24">
+      <path d="M20.45 20.45h-3.55v-5.4c0-1.29-.46-2.18-1.6-2.18-.87 0-1.39.59-1.62 1.16-.08.2-.1.48-.1.76v5.66h-3.55s.05-9.18 0-10.14h3.55v1.44c.47-.73 1.3-1.78 3.16-1.78 2.3 0 4.03 1.5 4.03 4.72v5.76zM5.34 7.43c-1.14 0-1.88-.75-1.88-1.69 0-.95.75-1.69 1.91-1.69s1.87.74 1.89 1.69c0 .94-.73 1.69-1.92 1.69h0zM7.1 20.45H3.6V10.3h3.5v10.15zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.22.78 24 1.77 24h20.46c.98 0 1.77-.78 1.77-1.72V1.72C24 .78 23.21 0 22.23 0z"/>
+    </svg>
   </a>
   <a href="mailto:a.ekpo@outlook.com" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24">
