@@ -31,32 +31,35 @@ I focus on actionable insights, building systems teams trust, telling better sto
 .social-icons a {
   display: inline-block;
   margin: 0 1rem;
-  padding: 10px;
+  padding: 15px;
+  background-color: #1D2A50;
   border-radius: 50%;
-  transition: background 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .social-icons a:hover {
-  background: #1D2A50;
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
-.social-icons a img {
-  width: 60px;
-  height: 60px;
-  transition: transform 0.3s ease;
+.social-icons a img,
+.social-icons a svg {
+  width: 30px;
+  height: 30px;
+  display: block;
 }
 </style>
 
 <div class="social-icons">
   <a href="https://github.com/TheAEkpo" target="_blank">
-    <img src="https://cdn.simpleicons.org/github/1D2A50/ffffff" alt="GitHub">
+    <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub">
   </a>
   <a href="https://linkedin.com/in/agnesekpo" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/1D2A50/ffffff" alt="LinkedIn">
+    <img src="https://cdn.simpleicons.org/linkedin/ffffff" alt="LinkedIn">
   </a>
-  <a href="mailto:a.ekpo@outlook.com">
-    <img src="https://cdn.simpleicons.org/minutemailer/1D2A50/ffffff" alt="Email">
+  <a href="mailto:a.ekpo@outlook.com" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24">
+      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+    </svg>
   </a>
 </div>
 
