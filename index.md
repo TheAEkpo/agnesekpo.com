@@ -50,13 +50,13 @@ I focus on actionable insights, building systems teams trust, telling better sto
 
 <div class="social-icons">
   <a href="https://github.com/TheAEkpo" target="_blank">
-    <img src="https://cdn.simpleicons.org/github/1D2A50/white" alt="GitHub">
+    <img src="https://cdn.simpleicons.org/github/1D2A50/ffffff" alt="GitHub">
   </a>
   <a href="https://linkedin.com/in/agnesekpo" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/1D2A50/white" alt="LinkedIn">
+    <img src="https://cdn.simpleicons.org/linkedin/1D2A50/ffffff" alt="LinkedIn">
   </a>
-  <a href="mailto:a.ekpo@outlook.com" target="_blank">
-    <img src="https://cdn.simpleicons.org/outlook/1D2A50/white" alt="Email">
+  <a href="mailto:a.ekpo@outlook.com">
+    <img src="https://cdn.simpleicons.org/minutemailer/1D2A50/ffffff" alt="Email">
   </a>
 </div>
 
