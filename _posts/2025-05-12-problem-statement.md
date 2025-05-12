@@ -14,7 +14,7 @@ tags:
   - web development
 excerpt: "As data professionals, it's easy to rush into analysis, dashboards, or modeling without first confirming what we're truly trying to solve. "
 header:
-  teaser: /assets/images/problem-solver.jpg
+  teaser: /assets/images/problem-solver.jpeg
 ---
 You know that moment when you're deep into a project, SQL scripts flowing, your dashboard shaping up nicely, and everything seems to be on track, until someone from leadership leans in and asks, "What exactly were we trying to fix here?" And for a second, you pause, because suddenly it hits you: you've been solving a version of the problem that no one really asked for.
 
@@ -22,7 +22,7 @@ Well, that moment used to terrify me and not because I didn’t do the work, but
 
 I had interpreted the problem as a marketing issue. They were really asking for inventory intelligence. And no amount of segmentation was going to fix that mismatch.
 
-![Quote by V. Anton Spraul](/assets/images/problem-statement.jpg){: .align-center}
+![Quote by V. Anton Spraul](/assets/images/problem-statement.png){: .align-center}
 
 What I learned, slowly and through a few more of those moments, is that understanding the problem is not a step you rush through… It is the step, and when you skip it, everything else becomes a cascade of best guesses dressed as insight.
 
