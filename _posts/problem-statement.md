@@ -23,7 +23,7 @@ Well, that moment used to terrify me and not because I didn’t do the work, but
 
 I had interpreted the problem as a marketing issue. They were really asking for inventory intelligence. And no amount of segmentation was going to fix that mismatch.
 
-![Restarting my journey](/assets/images/problem-statement.jpg){: .align-center}
+![Quote by V. Anton Spraul](/assets/images/problem-statement.jpg){: .align-center}
 
 What I learned, slowly and through a few more of those moments, is that understanding the problem is not a step you rush through… It is the step, and when you skip it, everything else becomes a cascade of best guesses dressed as insight.
 
