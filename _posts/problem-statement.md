@@ -17,13 +17,13 @@ header:
   teaser: /assets/images/problem-solver.jpg
 ---
 
-![Restarting my journey](/assets/images/problem-statement.jpg){: .align-center}
-
 As data professionals, it's easy to rush into analysis, dashboards, or modeling without first confirming what we're truly trying to solve. You know that moment when you're deep into a project, SQL scripts flowing, your dashboard shaping up nicely, and everything seems to be on track, until someone from leadership leans in and asks, "What exactly were we trying to fix here?" And for a second, you pause, because suddenly it hits you: you've been solving a version of the problem that no one really asked for.
 
 Well, that moment used to terrify me and not because I didn’t do the work, but because I did too much of the wrong work. In one project for a retail client, I was asked to "help improve customer conversion rates." Naturally, I dove into web analytics, user funnel drop-offs, time-on-page metrics. I built a great set of insights, complete with heatmaps and predictive segments. Only to find out after almost two weeks in that the real concern was cart abandonment due to stock unavailability, not website behavior at all.
 
 I had interpreted the problem as a marketing issue. They were really asking for inventory intelligence. And no amount of segmentation was going to fix that mismatch.
+
+![Restarting my journey](/assets/images/problem-statement.jpg){: .align-center}
 
 What I learned, slowly and through a few more of those moments, is that understanding the problem is not a step you rush through… It is the step, and when you skip it, everything else becomes a cascade of best guesses dressed as insight.
 
