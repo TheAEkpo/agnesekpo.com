@@ -12,12 +12,11 @@ tags:
   - data analysis
   - data science
   - web development
-excerpt: "Leaving the familiar behind, learning new tools, and rediscovering myself through data. Here's where I am and where I'm going."
+excerpt: "As data professionals, it's easy to rush into analysis, dashboards, or modeling without first confirming what we're truly trying to solve. "
 header:
   teaser: /assets/images/problem-solver.jpg
 ---
-
-As data professionals, it's easy to rush into analysis, dashboards, or modeling without first confirming what we're truly trying to solve. You know that moment when you're deep into a project, SQL scripts flowing, your dashboard shaping up nicely, and everything seems to be on track, until someone from leadership leans in and asks, "What exactly were we trying to fix here?" And for a second, you pause, because suddenly it hits you: you've been solving a version of the problem that no one really asked for.
+You know that moment when you're deep into a project, SQL scripts flowing, your dashboard shaping up nicely, and everything seems to be on track, until someone from leadership leans in and asks, "What exactly were we trying to fix here?" And for a second, you pause, because suddenly it hits you: you've been solving a version of the problem that no one really asked for.
 
 Well, that moment used to terrify me and not because I didn’t do the work, but because I did too much of the wrong work. In one project for a retail client, I was asked to "help improve customer conversion rates." Naturally, I dove into web analytics, user funnel drop-offs, time-on-page metrics. I built a great set of insights, complete with heatmaps and predictive segments. Only to find out after almost two weeks in that the real concern was cart abandonment due to stock unavailability, not website behavior at all.
 
