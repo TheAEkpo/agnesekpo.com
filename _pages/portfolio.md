@@ -123,19 +123,18 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
     </div>
   </div>
 </div>
+-->
 
-<div class="gallery-item business">
-  <img src="/assets/images/ad-performance-header.png" alt="Ad Performance Analysis">
+<div class="gallery-item media">
+  <img src="/assets/images/revenue_by_device.png" alt="Nominal revenue by device chart">
   <div class="gallery-overlay">
-    <h3>Ad Performance Analysis</h3>
-    <p>SQL-based analysis of ad revenue and impressions.</p>
+    <h3>Ad Performance & Revenue Analytics</h3>
+    <p>Investigated multi-site ad logs to find top-earning devices, trace CPM trends, and flag low-fill opportunities with a rolling seven-day dashboard.</p>
     <div class="gallery-buttons">
-      <a href="https://github.com/TheAEkpo/ad-performance-sql" target="_blank">GitHub</a>
+      <a href="https://github.com/TheAEkpo/ad-performance-revenue-analytics" target="_blank">GitHub</a>
     </div>
   </div>
 </div>
-
--->
 
 <div class="gallery-item healthcare">
   <img src="/assets/images/claims-cost-summary.png" alt="Cost outcome visual">
@@ -147,7 +146,6 @@ excerpt: "Turning complex data into impactful solutions. Explore some of my proj
     </div>
   </div>
 </div>
-
 
 
 <script>
