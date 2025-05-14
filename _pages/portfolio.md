@@ -1,7 +1,7 @@
 ---
 title: "PORTFOLIO"
 permalink: /portfolio/
-layout: splash
+layout: post
 header:
   overlay_image: /assets/images/home.jpg
   overlay_filter: 0.1
