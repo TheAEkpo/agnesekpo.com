@@ -1,14 +1,11 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+// Minimal Mistakes skins    (pick the one you set in _config.yml)
+@import "minimal-mistakes/skins/default";
 
+// Minimal Mistakes core styles
 @import "minimal-mistakes";
 
-.page__hero--overlay {
-  height: auto !important;
-}
+// ↓ ADD THIS LINE (last import)
+@import "custom";
 
-.page__hero--overlay .wrapper {
-  padding-top: 2em !important;
-  padding-bottom: 2em !important;
-}
