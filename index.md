@@ -6,7 +6,9 @@ header:
   overlay_filter: 0.2
 excerpt: "Helping organizations turn data into clarity. Connecting the dots between data and impact."
 permalink: /
+author_profile: false    
 ---
+
 
 <img src="/assets/images/about.jpg" alt="Agnes Ekpo" style="float: right; width: 500px; border-radius: 20px; margin-left: 20px;">
 
