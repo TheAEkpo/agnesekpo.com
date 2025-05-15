@@ -1,21 +1,26 @@
+# _config.yml
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
+# ───────────────────────────────────────
 # Site Settings
 title: "AGNES EKPO"
-name: "Agnes Ekpo"
+name:  "Agnes Ekpo"
 description: "Personal website showcasing my data science projects and skills"
 url: "https://agnesekpo.com"
 repository: "TheAEkpo/agnesekpo.com"
 
+# ───────────────────────────────────────
 # Site Author
 author:
   avatar: "/assets/images/profile-photo.jpg"
   bio: "Data Scientist passionate about solving problems with data"
-  
-# Defaults
+
+# ───────────────────────────────────────
+# Disable theme-generated footer links
+footer:
+  links: []        
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -26,7 +31,6 @@ defaults:
       comments: false
       share: true
       related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -34,7 +38,6 @@ defaults:
       layout: splash
       author_profile: false
 
-# Include pages
 include:
   - _pages
 
@@ -44,24 +47,22 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
-# Disable feed link from being added
+
 feed:
   path: ""
-  
-# Comment page
+
 comments:
   provider: "giscus"
   giscus:
-    repo: "TheAEkpo/agnesekpo.com"       
-    repo_id: "R_kgDOOUrMew"             
-    category: "Announcements"           
-    category_id: "DIC_kwDOOUrMe84Co35-" 
-    mapping: "pathname"                 
-    reactions_enabled: "1"              
-    emit_metadata: "0"                 
-    input_position: "top"              
-    theme: "preferred_color_scheme"     
-    lang: "en"                          
-    loading: "lazy"                     
-    crossorigin: "anonymous"            
-
+    repo: "TheAEkpo/agnesekpo.com"
+    repo_id: "R_kgDOOUrMew"
+    category: "Announcements"
+    category_id: "DIC_kwDOOUrMe84Co35-"
+    mapping: "pathname"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    input_position: "top"
+    theme: "preferred_color_scheme"
+    lang: "en"
+    loading: "lazy"
+    crossorigin: "anonymous"
