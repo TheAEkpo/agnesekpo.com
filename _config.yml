@@ -13,17 +13,6 @@ author:
   avatar: "/assets/images/profile-photo.jpg"
   bio: "Data Scientist passionate about solving problems with data"
   
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/TheAEkpo"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/agnesekpo"
-    - label: "Portfolio"
-      icon: "fab fa-fw fa-briefcase"
-      url: "https://www.datascienceportfol.io/aekpo"
-
 # Defaults
 defaults:
   # _posts
