@@ -1,3 +1,6 @@
+---
+# This front-matter tells Jekyll to process this file through Sass.
+---
 @import "minimal-mistakes/skins/default";  // theme colours
 @import "minimal-mistakes";                // core CSS
 
@@ -6,10 +9,12 @@
    ───────────────────────────────────────────── */
 
 /* Hide the theme’s default footer social buttons
-   (class added by Minimal Mistakes)*/
+   (class added by Minimal Mistakes) */
 .page__footer-follow {
   display: none !important;
-} 
+}
+
+/* ➜ add any other personal overrides below */
 
 /* Container that wraps the button */
 .gallery-buttons {
