@@ -19,7 +19,18 @@ author:
 # ───────────────────────────────────────
 # Disable theme-generated footer links
 footer:
-  links: []        
+   links:
+   - label: "GitHub"
+     icon: "fab fa-fw fa-github"
+     url: "https://github.com/TheAEkpo"
+   - label: "LinkedIn"
+     icon: "fab fa-fw fa-linkedin"
+     url: "https://linkedin.com/in/agnesekpo"
+   - label: "Email"
+     icon: "fas fa-fw fa-envelope"
+     url: "mailto:a.ekpo@outlook.com"
+
+   # ───────────────────────────────────────
 defaults:
   - scope:
       path: ""
@@ -37,7 +48,7 @@ defaults:
     values:
       layout: splash
       author_profile: false
-
+# ───────────────────────────────────────
 include:
   - _pages
 
@@ -50,7 +61,7 @@ plugins:
 
 feed:
   path: ""
-
+# ───────────────────────────────────────
 comments:
   provider: "giscus"
   giscus:
