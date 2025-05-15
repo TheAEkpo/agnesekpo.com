@@ -1,3 +1,2 @@
-.page__footer-follow {
-  display: none !important;
-} 
+/* Hide Minimal Mistakes footer social buttons */
+.page__footer-follow { display: none !important; }
