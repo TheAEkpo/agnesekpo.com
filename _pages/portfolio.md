@@ -1,8 +1,7 @@
 ---
 title: "PORTFOLIO"
 permalink: /portfolio/
-layout: archive
-entries_layout: grid
+layout: splash
 header:
   overlay_image: /assets/images/home.jpg
   overlay_filter: 0.1
@@ -13,98 +12,57 @@ excerpt: >
 ---
 
 <style>
-/* ───────── Grid setup ───────── */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+/* ───────────── Gallery grid ───────────── */
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:2rem;
+  margin-top:2rem;
 }
 
-/* ───────── Card ───────── */
-.gallery-item {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  cursor: pointer;
-  height: 250px;
+/* ───────────── Card wrapper ───────────── */
+.gallery-item{
+  position:relative;
+  display:block;                 /* anchor behaves like a block card   */
+  overflow:hidden;
+  border-radius:10px;
+  height:250px;
+  cursor:pointer;
+  text-decoration:none;          /* no link underline                  */
 }
 
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
+.gallery-item img{
+  width:100%;height:100%;
+  object-fit:cover;
+  transition:transform .5s ease;
 }
+.gallery-item:hover img{transform:scale(1.1);}
 
-.gallery-item:hover img {
-  transform: scale(1.1);
+/* ───────────── Overlay ───────────── */
+.gallery-overlay{
+  position:absolute;inset:0;
+  background:rgba(29,42,80,.72);
+  color:#fff;
+  display:flex;flex-direction:column;
+  justify-content:space-between; /* text top - pill bottom             */
+  align-items:center;
+  text-align:center;
+  padding:1rem;
+  opacity:0;transition:opacity .45s ease;
 }
+.gallery-item:hover .gallery-overlay{opacity:1;}
 
-/* ───────── Overlay ───────── */
-.gallery-overlay {
-  position: absolute;
-  inset: 0;                             /* shorthand top/left/right/bottom:0 */
-  background: rgba(29, 42, 80, 0.7);
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;       /* keeps button at bottom */
-  align-items: center;
-  text-align: center;
-  padding: 1rem;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.gallery-item:hover .gallery-overlay {
-  opacity: 1;
-}
-
-/* ───────── Buttons ───────── */
-.gallery-buttons {
-  margin-top: 0;                        /* no extra push */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.gallery-buttons a {
-  display: inline-block;
-  padding: 0.55rem 1.2rem;
-  font-size: 0.9rem;
-  background: #ffffff;
-  color: #1D2A50;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.25s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,.15);
-}
-
-.gallery-buttons a:hover {
-  background: #d9d9d9;
-}
-
-/* ───────── Filter bar (optional) ───────── */
-.filter-bar {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.filter-bar button {
-  background: #f0f0f0;
-  border: none;
-  padding: 0.5rem 1rem;
-  margin: 0 0.3rem;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.filter-bar button.active {
-  background: #1D2A50;
-  color: #fff;
+/* ───────────── Button pill (span, not <a>) ───────────── */
+.gallery-buttons span{
+  display:inline-block;
+  padding:.55rem 1.25rem;
+  background:#fff;
+  color:#1D2A50;
+  border-radius:8px;
+  font-weight:600;
+  font-size:.9rem;
+  box-shadow:0 2px 4px rgba(0,0,0,.15);
+  pointer-events:none;           /* pill is visual; whole card clicks  */
 }
 </style>
 
@@ -112,50 +70,56 @@ excerpt: >
 
 <div class="gallery-grid">
 
-<!-- Ad Performance card -->
-<div class="gallery-item media">
-  <img src="/assets/images/revenue_by_device.png" alt="Nominal revenue by device chart">
+<!-- ══════════ CARD 1 ══════════ -->
+<a class="gallery-item media"
+   href="https://github.com/TheAEkpo/ad-performance-revenue-analytics"
+   target="_blank">
+  <img src="/assets/images/revenue_by_device.png"
+       alt="Nominal revenue by device chart">
   <div class="gallery-overlay">
     <div>
-      <h3>Ad Performance & Revenue Analytics</h3>
-      <p>Investigated multi-site ad logs to find top-earning devices, trace CPM trends, and flag low-fill opportunities with a rolling seven-day dashboard.</p>
+      <h3>Ad Performance &amp; Revenue Analytics</h3>
+      <p>
+        Investigated multi-site ad logs to surface top-earning devices,
+        trace CPM trends, and flag low-fill opportunities with a rolling
+        seven-day dashboard.
+      </p>
     </div>
-    <div class="gallery-buttons">
-      <a href="https://github.com/TheAEkpo/ad-performance-revenue-analytics" target="_blank">GitHub</a>
-    </div>
+    <div class="gallery-buttons"><span>GitHub</span></div>
   </div>
-</div>
+</a>
 
-<!-- Hospital Claims card -->
-<div class="gallery-item healthcare">
-  <img src="/assets/images/claims-cost-summary.png" alt="Cost outcome visual">
+<!-- ══════════ CARD 2 ══════════ -->
+<a class="gallery-item healthcare"
+   href="https://github.com/TheAEkpo/hospital-claims-cost-outcomes"
+   target="_blank">
+  <img src="/assets/images/claims-cost-summary.png"
+       alt="Hospital claims cost outcome heatmap">
   <div class="gallery-overlay">
     <div>
-      <h3>Hospital Claims: Cost, Outcomes & Readmissions</h3>
-      <p>Explored synthetic hospital claims data to identify high-cost diagnoses, analyze readmission patterns, and visualize patient outcomes.</p>
+      <h3>Hospital Claims: Cost, Outcomes &amp; Readmissions</h3>
+      <p>
+        Analysed synthetic hospital claims to identify high-cost
+        diagnoses, readmission patterns, and patient-outcome drivers.
+      </p>
     </div>
-    <div class="gallery-buttons">
-      <a href="https://github.com/TheAEkpo/hospital-claims-cost-outcomes" target="_blank">GitHub</a>
-    </div>
+    <div class="gallery-buttons"><span>GitHub</span></div>
   </div>
-</div>
+</a>
 
-</div> <!-- /.gallery-grid -->
+<!-- ════════ TEMPLATE FOR NEW PROJECTS ════════
+<a class="gallery-item CATEGORY"
+   href="https://github.com/USERNAME/REPO"
+   target="_blank">
+  <img src="/assets/images/IMAGE.png" alt="ALT TEXT">
+  <div class="gallery-overlay">
+    <div>
+      <h3>Project Title</h3>
+      <p>One-sentence description of what you built.</p>
+    </div>
+    <div class="gallery-buttons"><span>GitHub</span></div>
+  </div>
+</a>
+═════════════════════════════════════════════ -->
 
-<!-- (Optional) JS filter logic remains unchanged -->
-<script>
-const filterButtons = document.querySelectorAll('.filter-bar button');
-const projects = document.querySelectorAll('.gallery-item');
-
-filterButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const filter = button.getAttribute('data-filter');
-    filterButtons.forEach(btn => btn.classList.remove('active'));
-    button.classList.add('active');
-
-    projects.forEach(item => {
-      item.style.display = (filter === 'all' || item.classList.contains(filter)) ? 'block' : 'none';
-    });
-  });
-});
-</script>
+</div><!-- /.gallery-grid -->
