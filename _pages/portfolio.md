@@ -1,8 +1,8 @@
 ---
 title: "PORTFOLIO"
 permalink: /portfolio/
-layout: archive            
-entries_layout: grid     
+layout: archive
+entries_layout: grid
 header:
   overlay_image: /assets/images/home.jpg
   overlay_filter: 0.1
@@ -13,6 +13,7 @@ excerpt: >
 ---
 
 <style>
+/* ───────── Grid setup ───────── */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -20,6 +21,7 @@ excerpt: >
   margin-top: 2rem;
 }
 
+/* ───────── Card ───────── */
 .gallery-item {
   position: relative;
   overflow: hidden;
@@ -39,49 +41,52 @@ excerpt: >
   transform: scale(1.1);
 }
 
+/* ───────── Overlay ───────── */
 .gallery-overlay {
   position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;                             /* shorthand top/left/right/bottom:0 */
   background: rgba(29, 42, 80, 0.7);
-  color: white;
+  color: #fff;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;       /* keeps button at bottom */
   align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.5s ease;
   text-align: center;
   padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .gallery-item:hover .gallery-overlay {
   opacity: 1;
 }
 
+/* ───────── Buttons ───────── */
 .gallery-buttons {
-  margin-top: 1rem;
+  margin-top: 0;                        /* no extra push */
+  width: 100%;
   display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .gallery-buttons a {
-  background: white;
+  display: inline-block;
+  padding: 0.55rem 1.2rem;
+  font-size: 0.9rem;
+  background: #ffffff;
   color: #1D2A50;
-  padding: 0.5rem 1rem;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s ease;
+  font-weight: 600;
+  transition: background 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
 }
 
 .gallery-buttons a:hover {
-  background: #ccc;
+  background: #d9d9d9;
 }
 
+/* ───────── Filter bar (optional) ───────── */
 .filter-bar {
   text-align: center;
   margin-bottom: 2rem;
@@ -99,58 +104,45 @@ excerpt: >
 
 .filter-bar button.active {
   background: #1D2A50;
-  color: white;
+  color: #fff;
 }
 </style>
 
 ## Gallery
-<!--
-<div class="filter-bar">
-  <button data-filter="all" class="active">Show All</button>
-  <button data-filter="healthcare">Healthcare</button>
-  <button data-filter="business">Business</button>
-  <button data-filter="finance">Finance</button>
-  <button data-filter="social">Social Impact</button>
-</div>
 
 <div class="gallery-grid">
 
-<div class="gallery-item healthcare">
-  <img src="/assets/images/pima-indian-header.png" alt="Pima Indian Diabetes">
-  <div class="gallery-overlay">
-    <h3>Pima Indian Diabetes</h3>
-    <p>Exploratory analysis and predictive modeling in R.</p>
-    <div class="gallery-buttons">
-      <a href="https://github.com/TheAEkpo/pima-indian-diabetes-analysis" target="_blank">GitHub</a>
-      <a href="https://agnesekpo.com/blog/pima-indian-notebook/" target="_blank">Notebook</a>
-    </div>
-  </div>
-</div>
--->
-
+<!-- Ad Performance card -->
 <div class="gallery-item media">
   <img src="/assets/images/revenue_by_device.png" alt="Nominal revenue by device chart">
   <div class="gallery-overlay">
-    <h3>Ad Performance & Revenue Analytics</h3>
-    <p>Investigated multi-site ad logs to find top-earning devices, trace CPM trends, and flag low-fill opportunities with a rolling seven-day dashboard.</p>
+    <div>
+      <h3>Ad Performance & Revenue Analytics</h3>
+      <p>Investigated multi-site ad logs to find top-earning devices, trace CPM trends, and flag low-fill opportunities with a rolling seven-day dashboard.</p>
+    </div>
     <div class="gallery-buttons">
       <a href="https://github.com/TheAEkpo/ad-performance-revenue-analytics" target="_blank">GitHub</a>
     </div>
   </div>
 </div>
 
+<!-- Hospital Claims card -->
 <div class="gallery-item healthcare">
   <img src="/assets/images/claims-cost-summary.png" alt="Cost outcome visual">
   <div class="gallery-overlay">
-    <h3>Hospital Claims: Cost, Outcomes & Readmissions</h3>
-    <p>Explored synthetic hospital claims data to identify high-cost diagnoses, analyze readmission patterns, and visualize patient outcomes.</p>
+    <div>
+      <h3>Hospital Claims: Cost, Outcomes & Readmissions</h3>
+      <p>Explored synthetic hospital claims data to identify high-cost diagnoses, analyze readmission patterns, and visualize patient outcomes.</p>
+    </div>
     <div class="gallery-buttons">
       <a href="https://github.com/TheAEkpo/hospital-claims-cost-outcomes" target="_blank">GitHub</a>
     </div>
   </div>
 </div>
 
+</div> <!-- /.gallery-grid -->
 
+<!-- (Optional) JS filter logic remains unchanged -->
 <script>
 const filterButtons = document.querySelectorAll('.filter-bar button');
 const projects = document.querySelectorAll('.gallery-item');
