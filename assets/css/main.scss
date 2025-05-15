@@ -20,4 +20,29 @@
   display: none !important;
 } 
 
-/* ➜ add any other personal overrides below */
+
+/* Container that wraps the button */
+.gallery-buttons {
+  position: absolute;          /* pins the button block */
+  bottom: 1rem;                /* 1 rem above overlay bottom edge */
+  left: 50%;
+  transform: translateX(-50%); /* centre-horizontally */
+  width: 100%;
+  text-align: center;
+}
+
+/* Actual button */
+.gallery-buttons a {
+  display: inline-block;
+  padding: 0.45rem 1.2rem;
+  font-size: 0.9rem;
+  background: #007bff;         /* blue pill */
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.gallery-buttons a:hover {
+  background: #005fcc;         /* darker on hover */
+}
