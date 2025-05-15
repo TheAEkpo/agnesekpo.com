@@ -1,12 +1,3 @@
----
-# This front-matter tells Jekyll to process this file through Sass.
----
-
-/*  ─────────────────────────────────────────────
-    Minimal Mistakes core + skin
-    (skin name must match `minimal_mistakes_skin`
-    in _config.yml, which you set to "default")
-   ───────────────────────────────────────────── */
 @import "minimal-mistakes/skins/default";  // theme colours
 @import "minimal-mistakes";                // core CSS
 
