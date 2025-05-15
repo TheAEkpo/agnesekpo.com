@@ -1,11 +1,23 @@
 ---
+# This front-matter tells Jekyll to process this file through Sass.
 ---
-// Minimal Mistakes skins    (pick the one you set in _config.yml)
-@import "minimal-mistakes/skins/default";
 
-// Minimal Mistakes core styles
-@import "minimal-mistakes";
+/*  ─────────────────────────────────────────────
+    Minimal Mistakes core + skin
+    (skin name must match `minimal_mistakes_skin`
+    in _config.yml, which you set to "default")
+   ───────────────────────────────────────────── */
+@import "minimal-mistakes/skins/default";  // theme colours
+@import "minimal-mistakes";                // core CSS
 
-// ↓ ADD THIS LINE (last import)
-@import "custom";
+/*  ─────────────────────────────────────────────
+    Custom overrides
+   ───────────────────────────────────────────── */
 
+/* Hide the theme’s default footer social buttons
+   (class added by Minimal Mistakes) */
+.page__footer-follow {
+  display: none !important;
+}
+
+/* ➜ add any other personal overrides below */
