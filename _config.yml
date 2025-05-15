@@ -19,7 +19,7 @@ author:
 # ───────────────────────────────────────
 # Disable theme-generated footer links
 footer:
-   links:[]
+   links:null
    # ───────────────────────────────────────
 defaults:
   - scope:
