@@ -14,10 +14,10 @@ tags:
   - health-tech
 excerpt: "How I learned to talk to databases without losing my mind"
 header:
-  teaser: /assets/images/sql_speaking.gif
+  teaser: /assets/images/sql_speaking.png
 ---
 
-![Speaking structured query language](/assets/images/sql_speaking.gif){: .align-center}
+![Speaking structured query language](/assets/images/sql_speaking.png){: .align-center}
 *Conversation with a database*
 
 When I first heard of SQL, I thought it was just another tech skill to tick off. You know, one of those things recruiters look for. So I opened YouTube, typed in “SQL tutorial,” and expected to figure it out in an hour. Big mistake.
@@ -47,10 +47,6 @@ You do not realize how powerful SQL is until you start using it on real problems
 It is quiet. It is direct. It does not need loops or complex logic. It just needs you to be clear about what you want. When you finally write a clean, efficient query and the results come back exactly as expected, it feels like solving a puzzle without forcing the pieces.
 
 Over time, SQL became more than a tool. It became a thinking framework. It made me ask better questions before even touching the keyboard.
-
----
-
-## My Latest SQL Adventure: The Interview
 
 Just recently, I encountered a rather interesting SQL test during an interview. The interviewer stated a preferred SQL syntax but allowed the use of any syntax I preferred, but I knew he really wanted his preferred syntax, Oracle. So I used Oracle.
 
