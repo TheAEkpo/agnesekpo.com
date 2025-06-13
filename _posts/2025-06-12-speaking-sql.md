@@ -52,7 +52,7 @@ Just recently, I encountered a rather interesting SQL test during an interview. 
 
 This made me smirk to myself, as it highlighted the very point I've been making: SQL is a language with many dialects, and understanding the underlying logic is far more important than adhering to a single rigid syntax.
 
-It reinforced my belief that once you grasp the core concepts of how to communicate with data, the specific syntax becomes a mere detail, easily adaptable to different environments and preferences. It is like knowing how to express an idea in English, and then being able to translate it into French or Spanish—the idea remains the same, only the words change.
+It reinforced my belief that once you grasp the core concepts of how to communicate with data, the specific syntax becomes a mere detail, easily adaptable to different environments and preferences. It is like knowing how to express an idea in English, and then being able to translate it into French or Spanish - the idea remains the same, only the words change.
 
 ---
 
@@ -86,7 +86,7 @@ Here are some that really helped me, and I still return to them from time to tim
 
 ## What I Know Now That I Wish I Knew Then
 
-If I could go back and tell myself one thing about learning SQL, it would be this—take your time. It is not just about learning to code. It is about learning to *think like data*. You are training your brain to ask sharper questions, think in relationships, and draw meaning from structure.
+If I could go back and tell myself one thing about learning SQL, it would be this - take your time. It is not just about learning to code. It is about learning to *think like data*. You are training your brain to ask sharper questions, think in relationships, and draw meaning from structure.
 
 SQL helped me slow down and ask, “What exactly am I trying to say?” And often, that question alone helped me solve problems even before writing the query.
 
